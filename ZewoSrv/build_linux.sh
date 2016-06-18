@@ -1,0 +1,1 @@
+swift build -Xcc -I/usr/include/postgresql -Xlinker -L/usr/local/lib/
