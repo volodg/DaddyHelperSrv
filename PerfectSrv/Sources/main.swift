@@ -16,7 +16,7 @@ PerfectServer.initializeServices()
 let webRoot = "./webroot"
 try Dir(webRoot).create()
 
-//try migrateAll()
+try migrateAll()
 
 // Add our routes and such
 // Register your own routes and handlers

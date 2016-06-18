@@ -48,6 +48,8 @@
 		"__src_cc_ref_Packages/PerfectThread-0.8.0/Sources/ThreadQueue.swift" /* ThreadQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectThread-0.8.0/Sources/ThreadQueue.swift" /* ThreadQueue.swift */; };
 		"__src_cc_ref_Packages/PerfectThread-0.8.0/Sources/Threading.swift" /* Threading.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectThread-0.8.0/Sources/Threading.swift" /* Threading.swift */; };
 		"__src_cc_ref_Packages/PostgreSQL-0.1.0/Sources/PostgreSQL/PostgreSQL.swift" /* PostgreSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PostgreSQL-0.1.0/Sources/PostgreSQL/PostgreSQL.swift" /* PostgreSQL.swift */; };
+		__src_cc_ref_Sources/dbMigrations.swift /* dbMigrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/dbMigrations.swift /* dbMigrations.swift */; };
+		__src_cc_ref_Sources/dbTool.swift /* dbTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/dbTool.swift /* dbTool.swift */; };
 		__src_cc_ref_Sources/main.swift /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/main.swift /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -123,6 +125,8 @@
 		__PBXFileRef_PerfectSrv.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Project.xcconfig; path = PerfectSrv.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
 		__PBXFileRef_PerfectThread_Info.plist /* PerfectThread_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = PerfectThread_Info.plist; path = PerfectSrv.xcodeproj/PerfectThread_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_PostgreSQL_Info.plist /* PostgreSQL_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = PostgreSQL_Info.plist; path = PerfectSrv.xcodeproj/PostgreSQL_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_Sources/dbMigrations.swift /* dbMigrations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dbMigrations.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/dbTool.swift /* dbTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dbTool.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/main.swift /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		"_____Product_PerfectLib" /* PerfectLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_PerfectNet" /* PerfectNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -279,6 +283,8 @@
 		"_______Group_PerfectSrv" /* PerfectSrv */ = {
 			isa = PBXGroup;
 			children = (
+				__PBXFileRef_Sources/dbMigrations.swift /* dbMigrations.swift */,
+				__PBXFileRef_Sources/dbTool.swift /* dbTool.swift */,
 				__PBXFileRef_Sources/main.swift /* main.swift */,
 			);
 			name = PerfectSrv;
@@ -475,6 +481,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				__src_cc_ref_Sources/dbMigrations.swift /* dbMigrations.swift in Sources */,
+				__src_cc_ref_Sources/dbTool.swift /* dbTool.swift in Sources */,
 				__src_cc_ref_Sources/main.swift /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
