@@ -203,6 +203,33 @@
       <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
         <BuildableReference
           BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_Log"
+          BuildableName = "Log.framework"
+          BlueprintName = "Log"
+          ReferencedContainer = "container:ZewoSrv.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_SQL"
+          BuildableName = "SQL.framework"
+          BlueprintName = "SQL"
+          ReferencedContainer = "container:ZewoSrv.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_PostgreSQL"
+          BuildableName = "PostgreSQL.framework"
+          BlueprintName = "PostgreSQL"
+          ReferencedContainer = "container:ZewoSrv.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
           BlueprintIdentifier = "______Target_ZewoSrv"
           BuildableName = "ZewoSrv"
           BlueprintName = "ZewoSrv"

@@ -1,0 +1,1 @@
+swift package generate-xcodeproj -Xcc -I/usr/local/include -Xlinker -L$(pwd)/.build/debug/ -Xswiftc -I/usr/local/include

@@ -3,6 +3,6 @@ struct ZewoSrv {
     var text = "Hello, World!"
 }
 
-//import PostgreSQL
+import PostgreSQL
 
 print("helo world")
