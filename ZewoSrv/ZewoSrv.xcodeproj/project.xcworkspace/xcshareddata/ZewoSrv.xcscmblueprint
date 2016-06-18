@@ -1,0 +1,65 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E0A8F7005AC52F42576EEA3BC45EEBCBEF0D9711",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3B4FAAEE2A714A56056BB5968260AF324231CB4F" : 0,
+    "15033DFF73D1DAA84A806DC9B6994613D8A2EB4F" : 0,
+    "E0A8F7005AC52F42576EEA3BC45EEBCBEF0D9711" : 0,
+    "10A2CB6C4392F0E306FF8D509BE5E88232276EA4" : 0,
+    "702080DFCC87BF364D28CF43D4A1F89910A896D9" : 0,
+    "269ADF55FAAC04D68303BE30B6BD693E717155DE" : 0,
+    "C274ABCCABABC9F55ED329880DD113121DABD8E6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1F8CC673-23AE-4DA6-92DB-B12E34F8E099",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3B4FAAEE2A714A56056BB5968260AF324231CB4F" : "appdaddymobilehelper\/ZewoSrv\/Packages\/PathParameterMiddleware-0.7.0\/",
+    "15033DFF73D1DAA84A806DC9B6994613D8A2EB4F" : "appdaddymobilehelper\/ZewoSrv\/Packages\/IP-0.7.0\/",
+    "E0A8F7005AC52F42576EEA3BC45EEBCBEF0D9711" : "appdaddymobilehelper\/",
+    "10A2CB6C4392F0E306FF8D509BE5E88232276EA4" : "appdaddymobilehelper\/ZewoSrv\/Packages\/String-0.7.2\/",
+    "702080DFCC87BF364D28CF43D4A1F89910A896D9" : "appdaddymobilehelper\/ZewoSrv\/Packages\/S4-0.8.0\/",
+    "269ADF55FAAC04D68303BE30B6BD693E717155DE" : "appdaddymobilehelper\/ZewoSrv\/Packages\/CHTTPParser-0.5.0\/",
+    "C274ABCCABABC9F55ED329880DD113121DABD8E6" : "appdaddymobilehelper\/ZewoSrv\/Packages\/POSIXRegex-0.7.0\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZewoSrv",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZewoSrv\/ZewoSrv.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Zewo\/String.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "10A2CB6C4392F0E306FF8D509BE5E88232276EA4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/VeniceX\/IP.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "15033DFF73D1DAA84A806DC9B6994613D8A2EB4F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Zewo\/CHTTPParser.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "269ADF55FAAC04D68303BE30B6BD693E717155DE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Zewo\/PathParameterMiddleware.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3B4FAAEE2A714A56056BB5968260AF324231CB4F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/open-swift\/S4.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "702080DFCC87BF364D28CF43D4A1F89910A896D9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Zewo\/POSIXRegex.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C274ABCCABABC9F55ED329880DD113121DABD8E6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/volodg\/DaddyHelperSrv.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E0A8F7005AC52F42576EEA3BC45EEBCBEF0D9711"
+    }
+  ]
+}

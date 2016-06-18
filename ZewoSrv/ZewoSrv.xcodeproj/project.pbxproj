@@ -1,0 +1,3220 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		_LinkFileRef_C7_via_HTTP /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
+		_LinkFileRef_C7_via_HTTPParser /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
+		_LinkFileRef_C7_via_HTTPSerializer /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
+		_LinkFileRef_C7_via_HTTPServer /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
+		_LinkFileRef_C7_via_IP /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
+		_LinkFileRef_C7_via_MediaType /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
+		_LinkFileRef_C7_via_POSIXRegex /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
+		_LinkFileRef_C7_via_PathParameterMiddleware /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
+		_LinkFileRef_C7_via_RegexRouteMatcher /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
+		_LinkFileRef_C7_via_Router /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
+		_LinkFileRef_C7_via_S4 /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
+		_LinkFileRef_C7_via_StructuredData /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
+		_LinkFileRef_C7_via_TCP /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
+		_LinkFileRef_C7_via_TrieRouteMatcher /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
+		_LinkFileRef_C7_via_URI /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
+		_LinkFileRef_C7_via_Venice /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
+		_LinkFileRef_C7_via_ZewoSrv /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
+		_LinkFileRef_C7_via_ZewoSrvTestSuite /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
+		_LinkFileRef_CHTTPParser_via_HTTPParser /* CHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CHTTPParser" /* CHTTPParser.framework */; };
+		_LinkFileRef_CHTTPParser_via_HTTPServer /* CHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CHTTPParser" /* CHTTPParser.framework */; };
+		_LinkFileRef_CHTTPParser_via_ZewoSrv /* CHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CHTTPParser" /* CHTTPParser.framework */; };
+		_LinkFileRef_CHTTPParser_via_ZewoSrvTestSuite /* CHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CHTTPParser" /* CHTTPParser.framework */; };
+		_LinkFileRef_CLibvenice_via_HTTPServer /* CLibvenice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CLibvenice" /* CLibvenice.framework */; };
+		_LinkFileRef_CLibvenice_via_IP /* CLibvenice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CLibvenice" /* CLibvenice.framework */; };
+		_LinkFileRef_CLibvenice_via_TCP /* CLibvenice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CLibvenice" /* CLibvenice.framework */; };
+		_LinkFileRef_CLibvenice_via_Venice /* CLibvenice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CLibvenice" /* CLibvenice.framework */; };
+		_LinkFileRef_CLibvenice_via_ZewoSrv /* CLibvenice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CLibvenice" /* CLibvenice.framework */; };
+		_LinkFileRef_CLibvenice_via_ZewoSrvTestSuite /* CLibvenice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CLibvenice" /* CLibvenice.framework */; };
+		_LinkFileRef_CURIParser_via_HTTP /* CURIParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* CURIParser.framework */; };
+		_LinkFileRef_CURIParser_via_HTTPParser /* CURIParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* CURIParser.framework */; };
+		_LinkFileRef_CURIParser_via_HTTPSerializer /* CURIParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* CURIParser.framework */; };
+		_LinkFileRef_CURIParser_via_HTTPServer /* CURIParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* CURIParser.framework */; };
+		_LinkFileRef_CURIParser_via_PathParameterMiddleware /* CURIParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* CURIParser.framework */; };
+		_LinkFileRef_CURIParser_via_RegexRouteMatcher /* CURIParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* CURIParser.framework */; };
+		_LinkFileRef_CURIParser_via_Router /* CURIParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* CURIParser.framework */; };
+		_LinkFileRef_CURIParser_via_TrieRouteMatcher /* CURIParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* CURIParser.framework */; };
+		_LinkFileRef_CURIParser_via_URI /* CURIParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* CURIParser.framework */; };
+		_LinkFileRef_CURIParser_via_ZewoSrv /* CURIParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* CURIParser.framework */; };
+		_LinkFileRef_CURIParser_via_ZewoSrvTestSuite /* CURIParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* CURIParser.framework */; };
+		_LinkFileRef_HTTPParser_via_HTTPServer /* HTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTPParser" /* HTTPParser.framework */; };
+		_LinkFileRef_HTTPParser_via_ZewoSrv /* HTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTPParser" /* HTTPParser.framework */; };
+		_LinkFileRef_HTTPParser_via_ZewoSrvTestSuite /* HTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTPParser" /* HTTPParser.framework */; };
+		_LinkFileRef_HTTPSerializer_via_HTTPServer /* HTTPSerializer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTPSerializer" /* HTTPSerializer.framework */; };
+		_LinkFileRef_HTTPSerializer_via_ZewoSrv /* HTTPSerializer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTPSerializer" /* HTTPSerializer.framework */; };
+		_LinkFileRef_HTTPSerializer_via_ZewoSrvTestSuite /* HTTPSerializer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTPSerializer" /* HTTPSerializer.framework */; };
+		_LinkFileRef_HTTPServer_via_ZewoSrv /* HTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTPServer" /* HTTPServer.framework */; };
+		_LinkFileRef_HTTPServer_via_ZewoSrvTestSuite /* HTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTPServer" /* HTTPServer.framework */; };
+		_LinkFileRef_HTTP_via_PathParameterMiddleware /* HTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* HTTP.framework */; };
+		_LinkFileRef_HTTP_via_RegexRouteMatcher /* HTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* HTTP.framework */; };
+		_LinkFileRef_HTTP_via_Router /* HTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* HTTP.framework */; };
+		_LinkFileRef_HTTP_via_TrieRouteMatcher /* HTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* HTTP.framework */; };
+		_LinkFileRef_HTTP_via_ZewoSrv /* HTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* HTTP.framework */; };
+		_LinkFileRef_HTTP_via_ZewoSrvTestSuite /* HTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* HTTP.framework */; };
+		_LinkFileRef_IP_via_HTTPServer /* IP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_IP" /* IP.framework */; };
+		_LinkFileRef_IP_via_TCP /* IP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_IP" /* IP.framework */; };
+		_LinkFileRef_IP_via_ZewoSrv /* IP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_IP" /* IP.framework */; };
+		_LinkFileRef_IP_via_ZewoSrvTestSuite /* IP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_IP" /* IP.framework */; };
+		_LinkFileRef_MediaType_via_HTTP /* MediaType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* MediaType.framework */; };
+		_LinkFileRef_MediaType_via_PathParameterMiddleware /* MediaType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* MediaType.framework */; };
+		_LinkFileRef_MediaType_via_RegexRouteMatcher /* MediaType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* MediaType.framework */; };
+		_LinkFileRef_MediaType_via_Router /* MediaType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* MediaType.framework */; };
+		_LinkFileRef_MediaType_via_TrieRouteMatcher /* MediaType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* MediaType.framework */; };
+		_LinkFileRef_MediaType_via_ZewoSrv /* MediaType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* MediaType.framework */; };
+		_LinkFileRef_MediaType_via_ZewoSrvTestSuite /* MediaType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* MediaType.framework */; };
+		_LinkFileRef_POSIXRegex_via_RegexRouteMatcher /* POSIXRegex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIXRegex" /* POSIXRegex.framework */; };
+		_LinkFileRef_POSIXRegex_via_Router /* POSIXRegex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIXRegex" /* POSIXRegex.framework */; };
+		_LinkFileRef_POSIXRegex_via_ZewoSrv /* POSIXRegex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIXRegex" /* POSIXRegex.framework */; };
+		_LinkFileRef_POSIXRegex_via_ZewoSrvTestSuite /* POSIXRegex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIXRegex" /* POSIXRegex.framework */; };
+		_LinkFileRef_POSIX_via_HTTPServer /* POSIX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIX" /* POSIX.framework */; };
+		_LinkFileRef_POSIX_via_IP /* POSIX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIX" /* POSIX.framework */; };
+		_LinkFileRef_POSIX_via_TCP /* POSIX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIX" /* POSIX.framework */; };
+		_LinkFileRef_POSIX_via_ZewoSrv /* POSIX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIX" /* POSIX.framework */; };
+		_LinkFileRef_POSIX_via_ZewoSrvTestSuite /* POSIX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIX" /* POSIX.framework */; };
+		_LinkFileRef_PathParameterMiddleware_via_RegexRouteMatcher /* PathParameterMiddleware.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathParameterMiddleware" /* PathParameterMiddleware.framework */; };
+		_LinkFileRef_PathParameterMiddleware_via_Router /* PathParameterMiddleware.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathParameterMiddleware" /* PathParameterMiddleware.framework */; };
+		_LinkFileRef_PathParameterMiddleware_via_TrieRouteMatcher /* PathParameterMiddleware.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathParameterMiddleware" /* PathParameterMiddleware.framework */; };
+		_LinkFileRef_PathParameterMiddleware_via_ZewoSrv /* PathParameterMiddleware.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathParameterMiddleware" /* PathParameterMiddleware.framework */; };
+		_LinkFileRef_PathParameterMiddleware_via_ZewoSrvTestSuite /* PathParameterMiddleware.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathParameterMiddleware" /* PathParameterMiddleware.framework */; };
+		_LinkFileRef_RegexRouteMatcher_via_Router /* RegexRouteMatcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_RegexRouteMatcher" /* RegexRouteMatcher.framework */; };
+		_LinkFileRef_RegexRouteMatcher_via_ZewoSrv /* RegexRouteMatcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_RegexRouteMatcher" /* RegexRouteMatcher.framework */; };
+		_LinkFileRef_RegexRouteMatcher_via_ZewoSrvTestSuite /* RegexRouteMatcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_RegexRouteMatcher" /* RegexRouteMatcher.framework */; };
+		_LinkFileRef_Router_via_ZewoSrv /* Router.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Router" /* Router.framework */; };
+		_LinkFileRef_Router_via_ZewoSrvTestSuite /* Router.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Router" /* Router.framework */; };
+		_LinkFileRef_S4_via_HTTP /* S4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* S4.framework */; };
+		_LinkFileRef_S4_via_HTTPParser /* S4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* S4.framework */; };
+		_LinkFileRef_S4_via_HTTPSerializer /* S4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* S4.framework */; };
+		_LinkFileRef_S4_via_HTTPServer /* S4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* S4.framework */; };
+		_LinkFileRef_S4_via_PathParameterMiddleware /* S4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* S4.framework */; };
+		_LinkFileRef_S4_via_RegexRouteMatcher /* S4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* S4.framework */; };
+		_LinkFileRef_S4_via_Router /* S4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* S4.framework */; };
+		_LinkFileRef_S4_via_TrieRouteMatcher /* S4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* S4.framework */; };
+		_LinkFileRef_S4_via_ZewoSrv /* S4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* S4.framework */; };
+		_LinkFileRef_S4_via_ZewoSrvTestSuite /* S4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* S4.framework */; };
+		_LinkFileRef_String_via_HTTP /* String.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* String.framework */; };
+		_LinkFileRef_String_via_HTTPParser /* String.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* String.framework */; };
+		_LinkFileRef_String_via_HTTPSerializer /* String.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* String.framework */; };
+		_LinkFileRef_String_via_HTTPServer /* String.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* String.framework */; };
+		_LinkFileRef_String_via_MediaType /* String.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* String.framework */; };
+		_LinkFileRef_String_via_PathParameterMiddleware /* String.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* String.framework */; };
+		_LinkFileRef_String_via_RegexRouteMatcher /* String.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* String.framework */; };
+		_LinkFileRef_String_via_Router /* String.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* String.framework */; };
+		_LinkFileRef_String_via_TrieRouteMatcher /* String.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* String.framework */; };
+		_LinkFileRef_String_via_URI /* String.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* String.framework */; };
+		_LinkFileRef_String_via_ZewoSrv /* String.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* String.framework */; };
+		_LinkFileRef_String_via_ZewoSrvTestSuite /* String.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* String.framework */; };
+		_LinkFileRef_StructuredData_via_HTTP /* StructuredData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* StructuredData.framework */; };
+		_LinkFileRef_StructuredData_via_MediaType /* StructuredData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* StructuredData.framework */; };
+		_LinkFileRef_StructuredData_via_PathParameterMiddleware /* StructuredData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* StructuredData.framework */; };
+		_LinkFileRef_StructuredData_via_RegexRouteMatcher /* StructuredData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* StructuredData.framework */; };
+		_LinkFileRef_StructuredData_via_Router /* StructuredData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* StructuredData.framework */; };
+		_LinkFileRef_StructuredData_via_TrieRouteMatcher /* StructuredData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* StructuredData.framework */; };
+		_LinkFileRef_StructuredData_via_ZewoSrv /* StructuredData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* StructuredData.framework */; };
+		_LinkFileRef_StructuredData_via_ZewoSrvTestSuite /* StructuredData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* StructuredData.framework */; };
+		_LinkFileRef_TCP_via_HTTPServer /* TCP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TCP" /* TCP.framework */; };
+		_LinkFileRef_TCP_via_ZewoSrv /* TCP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TCP" /* TCP.framework */; };
+		_LinkFileRef_TCP_via_ZewoSrvTestSuite /* TCP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TCP" /* TCP.framework */; };
+		_LinkFileRef_TrieRouteMatcher_via_Router /* TrieRouteMatcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TrieRouteMatcher" /* TrieRouteMatcher.framework */; };
+		_LinkFileRef_TrieRouteMatcher_via_ZewoSrv /* TrieRouteMatcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TrieRouteMatcher" /* TrieRouteMatcher.framework */; };
+		_LinkFileRef_TrieRouteMatcher_via_ZewoSrvTestSuite /* TrieRouteMatcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TrieRouteMatcher" /* TrieRouteMatcher.framework */; };
+		_LinkFileRef_URI_via_HTTP /* URI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* URI.framework */; };
+		_LinkFileRef_URI_via_HTTPParser /* URI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* URI.framework */; };
+		_LinkFileRef_URI_via_HTTPSerializer /* URI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* URI.framework */; };
+		_LinkFileRef_URI_via_HTTPServer /* URI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* URI.framework */; };
+		_LinkFileRef_URI_via_PathParameterMiddleware /* URI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* URI.framework */; };
+		_LinkFileRef_URI_via_RegexRouteMatcher /* URI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* URI.framework */; };
+		_LinkFileRef_URI_via_Router /* URI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* URI.framework */; };
+		_LinkFileRef_URI_via_TrieRouteMatcher /* URI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* URI.framework */; };
+		_LinkFileRef_URI_via_ZewoSrv /* URI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* URI.framework */; };
+		_LinkFileRef_URI_via_ZewoSrvTestSuite /* URI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* URI.framework */; };
+		_LinkFileRef_Venice_via_HTTPServer /* Venice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Venice" /* Venice.framework */; };
+		_LinkFileRef_Venice_via_IP /* Venice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Venice" /* Venice.framework */; };
+		_LinkFileRef_Venice_via_TCP /* Venice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Venice" /* Venice.framework */; };
+		_LinkFileRef_Venice_via_ZewoSrv /* Venice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Venice" /* Venice.framework */; };
+		_LinkFileRef_Venice_via_ZewoSrvTestSuite /* Venice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Venice" /* Venice.framework */; };
+		_LinkFileRef_ZewoSrv_via_ZewoSrvTestSuite /* ZewoSrv in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_ZewoSrv" /* ZewoSrv */; };
+		"__src_cc_ref_Packages/C7-0.8.1/Sources/AsyncConnection.swift" /* AsyncConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.8.1/Sources/AsyncConnection.swift" /* AsyncConnection.swift */; };
+		"__src_cc_ref_Packages/C7-0.8.1/Sources/AsyncDrain.swift" /* AsyncDrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.8.1/Sources/AsyncDrain.swift" /* AsyncDrain.swift */; };
+		"__src_cc_ref_Packages/C7-0.8.1/Sources/AsyncHost.swift" /* AsyncHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.8.1/Sources/AsyncHost.swift" /* AsyncHost.swift */; };
+		"__src_cc_ref_Packages/C7-0.8.1/Sources/AsyncStream.swift" /* AsyncStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.8.1/Sources/AsyncStream.swift" /* AsyncStream.swift */; };
+		"__src_cc_ref_Packages/C7-0.8.1/Sources/AsyncURIConnection.swift" /* AsyncURIConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.8.1/Sources/AsyncURIConnection.swift" /* AsyncURIConnection.swift */; };
+		"__src_cc_ref_Packages/C7-0.8.1/Sources/Byte.swift" /* Byte.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.8.1/Sources/Byte.swift" /* Byte.swift */; };
+		"__src_cc_ref_Packages/C7-0.8.1/Sources/C7.swift" /* C7.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.8.1/Sources/C7.swift" /* C7.swift */; };
+		"__src_cc_ref_Packages/C7-0.8.1/Sources/CaseInsensitiveString.swift" /* CaseInsensitiveString.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.8.1/Sources/CaseInsensitiveString.swift" /* CaseInsensitiveString.swift */; };
+		"__src_cc_ref_Packages/C7-0.8.1/Sources/Closable.swift" /* Closable.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.8.1/Sources/Closable.swift" /* Closable.swift */; };
+		"__src_cc_ref_Packages/C7-0.8.1/Sources/Connection.swift" /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.8.1/Sources/Connection.swift" /* Connection.swift */; };
+		"__src_cc_ref_Packages/C7-0.8.1/Sources/CustomDataStore.swift" /* CustomDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.8.1/Sources/CustomDataStore.swift" /* CustomDataStore.swift */; };
+		"__src_cc_ref_Packages/C7-0.8.1/Sources/Data.swift" /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.8.1/Sources/Data.swift" /* Data.swift */; };
+		"__src_cc_ref_Packages/C7-0.8.1/Sources/Drain.swift" /* Drain.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.8.1/Sources/Drain.swift" /* Drain.swift */; };
+		"__src_cc_ref_Packages/C7-0.8.1/Sources/Host.swift" /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.8.1/Sources/Host.swift" /* Host.swift */; };
+		"__src_cc_ref_Packages/C7-0.8.1/Sources/JSON.swift" /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.8.1/Sources/JSON.swift" /* JSON.swift */; };
+		"__src_cc_ref_Packages/C7-0.8.1/Sources/Number.swift" /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.8.1/Sources/Number.swift" /* Number.swift */; };
+		"__src_cc_ref_Packages/C7-0.8.1/Sources/Stream.swift" /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.8.1/Sources/Stream.swift" /* Stream.swift */; };
+		"__src_cc_ref_Packages/C7-0.8.1/Sources/StreamError.swift" /* StreamError.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.8.1/Sources/StreamError.swift" /* StreamError.swift */; };
+		"__src_cc_ref_Packages/C7-0.8.1/Sources/StreamSequence.swift" /* StreamSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.8.1/Sources/StreamSequence.swift" /* StreamSequence.swift */; };
+		"__src_cc_ref_Packages/C7-0.8.1/Sources/StructuredData.swift" /* StructuredData.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.8.1/Sources/StructuredData.swift" /* StructuredData.swift */; };
+		"__src_cc_ref_Packages/C7-0.8.1/Sources/Time.swift" /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.8.1/Sources/Time.swift" /* Time.swift */; };
+		"__src_cc_ref_Packages/C7-0.8.1/Sources/URI.swift" /* URI.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.8.1/Sources/URI.swift" /* URI.swift */; };
+		"__src_cc_ref_Packages/C7-0.8.1/Sources/URIConnection.swift" /* URIConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.8.1/Sources/URIConnection.swift" /* URIConnection.swift */; };
+		"__src_cc_ref_Packages/CHTTPParser-0.5.0/Sources/http_parser.c" /* http_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CHTTPParser-0.5.0/Sources/http_parser.c" /* http_parser.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/chan.c" /* chan.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/chan.c" /* chan.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/cr.c" /* cr.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/cr.c" /* cr.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/debug.c" /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/debug.c" /* debug.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/dns.c" /* dns.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/dns.c" /* dns.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/file.c" /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/file.c" /* file.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/ip.c" /* ip.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/ip.c" /* ip.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/list.c" /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/list.c" /* list.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/poller.c" /* poller.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/poller.c" /* poller.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/slist.c" /* slist.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/slist.c" /* slist.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/stack.c" /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/stack.c" /* stack.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/tcp.c" /* tcp.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/tcp.c" /* tcp.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/timer.c" /* timer.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/timer.c" /* timer.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/udp.c" /* udp.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/udp.c" /* udp.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/unix.c" /* unix.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/unix.c" /* unix.c */; };
+		"__src_cc_ref_Packages/CURIParser-0.5.0/Sources/uri_parser.c" /* uri_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CURIParser-0.5.0/Sources/uri_parser.c" /* uri_parser.c */; };
+		"__src_cc_ref_Packages/HTTP-0.7.1/Sources/AttributedCookie.swift" /* AttributedCookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.7.1/Sources/AttributedCookie.swift" /* AttributedCookie.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.7.1/Sources/Cookie.swift" /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.7.1/Sources/Cookie.swift" /* Cookie.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.7.1/Sources/HTTP.swift" /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.7.1/Sources/HTTP.swift" /* HTTP.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.7.1/Sources/HeaderValues.swift" /* HeaderValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.7.1/Sources/HeaderValues.swift" /* HeaderValues.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.7.1/Sources/Headers.swift" /* Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.7.1/Sources/Headers.swift" /* Headers.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.7.1/Sources/Message.swift" /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.7.1/Sources/Message.swift" /* Message.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.7.1/Sources/Request.swift" /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.7.1/Sources/Request.swift" /* Request.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.7.1/Sources/Response.swift" /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.7.1/Sources/Response.swift" /* Response.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.7.1/Sources/Router.swift" /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.7.1/Sources/Router.swift" /* Router.swift */; };
+		"__src_cc_ref_Packages/HTTPParser-0.7.3/Sources/Parser.swift" /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTPParser-0.7.3/Sources/Parser.swift" /* Parser.swift */; };
+		"__src_cc_ref_Packages/HTTPParser-0.7.3/Sources/RequestParser.swift" /* RequestParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTPParser-0.7.3/Sources/RequestParser.swift" /* RequestParser.swift */; };
+		"__src_cc_ref_Packages/HTTPParser-0.7.3/Sources/ResponseParser.swift" /* ResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTPParser-0.7.3/Sources/ResponseParser.swift" /* ResponseParser.swift */; };
+		"__src_cc_ref_Packages/HTTPSerializer-0.7.2/Sources/BodyStream.swift" /* BodyStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTPSerializer-0.7.2/Sources/BodyStream.swift" /* BodyStream.swift */; };
+		"__src_cc_ref_Packages/HTTPSerializer-0.7.2/Sources/RequestSerializer.swift" /* RequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTPSerializer-0.7.2/Sources/RequestSerializer.swift" /* RequestSerializer.swift */; };
+		"__src_cc_ref_Packages/HTTPSerializer-0.7.2/Sources/ResponseSerializer.swift" /* ResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTPSerializer-0.7.2/Sources/ResponseSerializer.swift" /* ResponseSerializer.swift */; };
+		"__src_cc_ref_Packages/HTTPServer-0.7.2/Source/Server.swift" /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTPServer-0.7.2/Source/Server.swift" /* Server.swift */; };
+		"__src_cc_ref_Packages/IP-0.7.0/Source/IP.swift" /* IP.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/IP-0.7.0/Source/IP.swift" /* IP.swift */; };
+		"__src_cc_ref_Packages/MediaType-0.8.0/Source/MediaType.swift" /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MediaType-0.8.0/Source/MediaType.swift" /* MediaType.swift */; };
+		"__src_cc_ref_Packages/POSIX-0.5.1/Sources/POSIX.swift" /* POSIX.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/POSIX-0.5.1/Sources/POSIX.swift" /* POSIX.swift */; };
+		"__src_cc_ref_Packages/POSIXRegex-0.7.0/Source/Regex.swift" /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/POSIXRegex-0.7.0/Source/Regex.swift" /* Regex.swift */; };
+		"__src_cc_ref_Packages/PathParameterMiddleware-0.7.0/Source/PathParameterMiddleware.swift" /* PathParameterMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PathParameterMiddleware-0.7.0/Source/PathParameterMiddleware.swift" /* PathParameterMiddleware.swift */; };
+		"__src_cc_ref_Packages/RegexRouteMatcher-0.7.0/Source/RegexRouteMatcher.swift" /* RegexRouteMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/RegexRouteMatcher-0.7.0/Source/RegexRouteMatcher.swift" /* RegexRouteMatcher.swift */; };
+		"__src_cc_ref_Packages/Router-0.7.1/Source/Router.swift" /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Router-0.7.1/Source/Router.swift" /* Router.swift */; };
+		"__src_cc_ref_Packages/Router-0.7.1/Source/RouterBuilder.swift" /* RouterBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Router-0.7.1/Source/RouterBuilder.swift" /* RouterBuilder.swift */; };
+		"__src_cc_ref_Packages/S4-0.8.0/Sources/AsyncClient.swift" /* AsyncClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.8.0/Sources/AsyncClient.swift" /* AsyncClient.swift */; };
+		"__src_cc_ref_Packages/S4-0.8.0/Sources/AsyncMiddleware.swift" /* AsyncMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.8.0/Sources/AsyncMiddleware.swift" /* AsyncMiddleware.swift */; };
+		"__src_cc_ref_Packages/S4-0.8.0/Sources/AsyncResponder.swift" /* AsyncResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.8.0/Sources/AsyncResponder.swift" /* AsyncResponder.swift */; };
+		"__src_cc_ref_Packages/S4-0.8.0/Sources/AsyncServer.swift" /* AsyncServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.8.0/Sources/AsyncServer.swift" /* AsyncServer.swift */; };
+		"__src_cc_ref_Packages/S4-0.8.0/Sources/Body.swift" /* Body.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.8.0/Sources/Body.swift" /* Body.swift */; };
+		"__src_cc_ref_Packages/S4-0.8.0/Sources/Client.swift" /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.8.0/Sources/Client.swift" /* Client.swift */; };
+		"__src_cc_ref_Packages/S4-0.8.0/Sources/Error.swift" /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.8.0/Sources/Error.swift" /* Error.swift */; };
+		"__src_cc_ref_Packages/S4-0.8.0/Sources/Header.swift" /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.8.0/Sources/Header.swift" /* Header.swift */; };
+		"__src_cc_ref_Packages/S4-0.8.0/Sources/Headers.swift" /* Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.8.0/Sources/Headers.swift" /* Headers.swift */; };
+		"__src_cc_ref_Packages/S4-0.8.0/Sources/Message.swift" /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.8.0/Sources/Message.swift" /* Message.swift */; };
+		"__src_cc_ref_Packages/S4-0.8.0/Sources/Method.swift" /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.8.0/Sources/Method.swift" /* Method.swift */; };
+		"__src_cc_ref_Packages/S4-0.8.0/Sources/Middleware.swift" /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.8.0/Sources/Middleware.swift" /* Middleware.swift */; };
+		"__src_cc_ref_Packages/S4-0.8.0/Sources/Request.swift" /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.8.0/Sources/Request.swift" /* Request.swift */; };
+		"__src_cc_ref_Packages/S4-0.8.0/Sources/RequestParser.swift" /* RequestParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.8.0/Sources/RequestParser.swift" /* RequestParser.swift */; };
+		"__src_cc_ref_Packages/S4-0.8.0/Sources/RequestSerializer.swift" /* RequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.8.0/Sources/RequestSerializer.swift" /* RequestSerializer.swift */; };
+		"__src_cc_ref_Packages/S4-0.8.0/Sources/Responder.swift" /* Responder.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.8.0/Sources/Responder.swift" /* Responder.swift */; };
+		"__src_cc_ref_Packages/S4-0.8.0/Sources/Response.swift" /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.8.0/Sources/Response.swift" /* Response.swift */; };
+		"__src_cc_ref_Packages/S4-0.8.0/Sources/ResponseParser.swift" /* ResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.8.0/Sources/ResponseParser.swift" /* ResponseParser.swift */; };
+		"__src_cc_ref_Packages/S4-0.8.0/Sources/ResponseSerializer.swift" /* ResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.8.0/Sources/ResponseSerializer.swift" /* ResponseSerializer.swift */; };
+		"__src_cc_ref_Packages/S4-0.8.0/Sources/S4.swift" /* S4.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.8.0/Sources/S4.swift" /* S4.swift */; };
+		"__src_cc_ref_Packages/S4-0.8.0/Sources/Server.swift" /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.8.0/Sources/Server.swift" /* Server.swift */; };
+		"__src_cc_ref_Packages/S4-0.8.0/Sources/Status.swift" /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.8.0/Sources/Status.swift" /* Status.swift */; };
+		"__src_cc_ref_Packages/S4-0.8.0/Sources/Version.swift" /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.8.0/Sources/Version.swift" /* Version.swift */; };
+		"__src_cc_ref_Packages/String-0.7.2/Source/String.swift" /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/String-0.7.2/Source/String.swift" /* String.swift */; };
+		"__src_cc_ref_Packages/StructuredData-0.8.3/Sources/StructuredData.swift" /* StructuredData.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/StructuredData-0.8.3/Sources/StructuredData.swift" /* StructuredData.swift */; };
+		"__src_cc_ref_Packages/TCP-0.7.2/Source/TCPConnection.swift" /* TCPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/TCP-0.7.2/Source/TCPConnection.swift" /* TCPConnection.swift */; };
+		"__src_cc_ref_Packages/TCP-0.7.2/Source/TCPError.swift" /* TCPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/TCP-0.7.2/Source/TCPError.swift" /* TCPError.swift */; };
+		"__src_cc_ref_Packages/TCP-0.7.2/Source/TCPServer.swift" /* TCPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/TCP-0.7.2/Source/TCPServer.swift" /* TCPServer.swift */; };
+		"__src_cc_ref_Packages/TrieRouteMatcher-0.7.0/Source/Trie.swift" /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/TrieRouteMatcher-0.7.0/Source/Trie.swift" /* Trie.swift */; };
+		"__src_cc_ref_Packages/TrieRouteMatcher-0.7.0/Source/TrieRouteMatcher.swift" /* TrieRouteMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/TrieRouteMatcher-0.7.0/Source/TrieRouteMatcher.swift" /* TrieRouteMatcher.swift */; };
+		"__src_cc_ref_Packages/URI-0.8.1/Sources/URI.swift" /* URI.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/URI-0.8.1/Sources/URI.swift" /* URI.swift */; };
+		"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/Channel/Channel.swift" /* Channel/Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/Channel/Channel.swift" /* Channel/Channel.swift */; };
+		"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/Channel/ReceivingChannel.swift" /* Channel/ReceivingChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/Channel/ReceivingChannel.swift" /* Channel/ReceivingChannel.swift */; };
+		"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/Channel/SendingChannel.swift" /* Channel/SendingChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/Channel/SendingChannel.swift" /* Channel/SendingChannel.swift */; };
+		"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/Coroutine/Coroutine.swift" /* Coroutine/Coroutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/Coroutine/Coroutine.swift" /* Coroutine/Coroutine.swift */; };
+		"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/FallibleChannel/FallibleChannel.swift" /* FallibleChannel/FallibleChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/FallibleChannel/FallibleChannel.swift" /* FallibleChannel/FallibleChannel.swift */; };
+		"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/FallibleChannel/FallibleReceivingChannel.swift" /* FallibleChannel/FallibleReceivingChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/FallibleChannel/FallibleReceivingChannel.swift" /* FallibleChannel/FallibleReceivingChannel.swift */; };
+		"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/FallibleChannel/FallibleSendingChannel.swift" /* FallibleChannel/FallibleSendingChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/FallibleChannel/FallibleSendingChannel.swift" /* FallibleChannel/FallibleSendingChannel.swift */; };
+		"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/Poll/Poll.swift" /* Poll/Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/Poll/Poll.swift" /* Poll/Poll.swift */; };
+		"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/Select/Select.swift" /* Select/Select.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/Select/Select.swift" /* Select/Select.swift */; };
+		"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/TImer/Timer.swift" /* TImer/Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/TImer/Timer.swift" /* TImer/Timer.swift */; };
+		"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/Ticker/Ticker.swift" /* Ticker/Ticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/Ticker/Ticker.swift" /* Ticker/Ticker.swift */; };
+		__src_cc_ref_Sources/main.swift /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/main.swift /* main.swift */; };
+		__src_cc_ref_Tests/ZewoSrv/ZewoSrvTests.swift /* ZewoSrvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Tests/ZewoSrv/ZewoSrvTests.swift /* ZewoSrvTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C33A50CB1D15CC5600F58D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_C7";
+			remoteInfo = C7;
+		};
+		C33A50CC1D15CC5600F58D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_CLibvenice";
+			remoteInfo = CLibvenice;
+		};
+		C33A50CD1D15CC5600F58D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_POSIX";
+			remoteInfo = POSIX;
+		};
+		C33A50CE1D15CC5600F58D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Venice";
+			remoteInfo = Venice;
+		};
+		C33A50CF1D15CC5600F58D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_IP";
+			remoteInfo = IP;
+		};
+		C33A50D01D15CC5600F58D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_CURIParser";
+			remoteInfo = CURIParser;
+		};
+		C33A50D11D15CC5600F58D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_String";
+			remoteInfo = String;
+		};
+		C33A50D21D15CC5600F58D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_S4";
+			remoteInfo = S4;
+		};
+		C33A50D31D15CC5600F58D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_URI";
+			remoteInfo = URI;
+		};
+		C33A50D41D15CC5600F58D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_CHTTPParser";
+			remoteInfo = CHTTPParser;
+		};
+		C33A50D51D15CC5600F58D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_HTTPSerializer";
+			remoteInfo = HTTPSerializer;
+		};
+		C33A50D61D15CC5600F58D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_HTTPParser";
+			remoteInfo = HTTPParser;
+		};
+		C33A50D71D15CC5600F58D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_TCP";
+			remoteInfo = TCP;
+		};
+		C33A50D81D15CC5600F58D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_StructuredData";
+			remoteInfo = StructuredData;
+		};
+		C33A50D91D15CC5600F58D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_MediaType";
+			remoteInfo = MediaType;
+		};
+		C33A50DA1D15CC5600F58D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_HTTP";
+			remoteInfo = HTTP;
+		};
+		C33A50DB1D15CC5600F58D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_PathParameterMiddleware";
+			remoteInfo = PathParameterMiddleware;
+		};
+		C33A50DC1D15CC5600F58D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_POSIXRegex";
+			remoteInfo = POSIXRegex;
+		};
+		C33A50DD1D15CC5600F58D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_TrieRouteMatcher";
+			remoteInfo = TrieRouteMatcher;
+		};
+		C33A50DE1D15CC5600F58D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_RegexRouteMatcher";
+			remoteInfo = RegexRouteMatcher;
+		};
+		C33A50DF1D15CC5600F58D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Router";
+			remoteInfo = Router;
+		};
+		C33A50E01D15CC5600F58D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_HTTPServer";
+			remoteInfo = HTTPServer;
+		};
+		C33A50E11D15CC5600F58D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_ZewoSrv";
+			remoteInfo = ZewoSrv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		__PBXFileRef_C7_Info.plist /* C7_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = C7_Info.plist; path = ZewoSrv.xcodeproj/C7_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_CHTTPParser_Info.plist /* CHTTPParser_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CHTTPParser_Info.plist; path = ZewoSrv.xcodeproj/CHTTPParser_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_CLibvenice_Info.plist /* CLibvenice_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CLibvenice_Info.plist; path = ZewoSrv.xcodeproj/CLibvenice_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_CURIParser_Info.plist /* CURIParser_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CURIParser_Info.plist; path = ZewoSrv.xcodeproj/CURIParser_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_HTTPParser_Info.plist /* HTTPParser_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = HTTPParser_Info.plist; path = ZewoSrv.xcodeproj/HTTPParser_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_HTTPSerializer_Info.plist /* HTTPSerializer_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = HTTPSerializer_Info.plist; path = ZewoSrv.xcodeproj/HTTPSerializer_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_HTTPServer_Info.plist /* HTTPServer_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = HTTPServer_Info.plist; path = ZewoSrv.xcodeproj/HTTPServer_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_HTTP_Info.plist /* HTTP_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = HTTP_Info.plist; path = ZewoSrv.xcodeproj/HTTP_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_IP_Info.plist /* IP_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = IP_Info.plist; path = ZewoSrv.xcodeproj/IP_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_MediaType_Info.plist /* MediaType_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MediaType_Info.plist; path = ZewoSrv.xcodeproj/MediaType_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_POSIXRegex_Info.plist /* POSIXRegex_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = POSIXRegex_Info.plist; path = ZewoSrv.xcodeproj/POSIXRegex_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_POSIX_Info.plist /* POSIX_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = POSIX_Info.plist; path = ZewoSrv.xcodeproj/POSIX_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.8.1/Sources/AsyncConnection.swift" /* AsyncConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncConnection.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.8.1/Sources/AsyncDrain.swift" /* AsyncDrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncDrain.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.8.1/Sources/AsyncHost.swift" /* AsyncHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncHost.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.8.1/Sources/AsyncStream.swift" /* AsyncStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncStream.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.8.1/Sources/AsyncURIConnection.swift" /* AsyncURIConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncURIConnection.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.8.1/Sources/Byte.swift" /* Byte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Byte.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.8.1/Sources/C7.swift" /* C7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C7.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.8.1/Sources/CaseInsensitiveString.swift" /* CaseInsensitiveString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseInsensitiveString.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.8.1/Sources/Closable.swift" /* Closable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closable.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.8.1/Sources/Connection.swift" /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.8.1/Sources/CustomDataStore.swift" /* CustomDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDataStore.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.8.1/Sources/Data.swift" /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.8.1/Sources/Drain.swift" /* Drain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drain.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.8.1/Sources/Host.swift" /* Host.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Host.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.8.1/Sources/JSON.swift" /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.8.1/Sources/Number.swift" /* Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.8.1/Sources/Stream.swift" /* Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.8.1/Sources/StreamError.swift" /* StreamError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamError.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.8.1/Sources/StreamSequence.swift" /* StreamSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamSequence.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.8.1/Sources/StructuredData.swift" /* StructuredData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuredData.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.8.1/Sources/Time.swift" /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.8.1/Sources/URI.swift" /* URI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URI.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.8.1/Sources/URIConnection.swift" /* URIConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URIConnection.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CHTTPParser-0.5.0/Sources/http_parser.c" /* http_parser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = http_parser.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/chan.c" /* chan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chan.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/cr.c" /* cr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cr.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/debug.c" /* debug.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = debug.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/dns.c" /* dns.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dns.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/file.c" /* file.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = file.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/ip.c" /* ip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ip.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/list.c" /* list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/poller.c" /* poller.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = poller.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/slist.c" /* slist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = slist.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/stack.c" /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/tcp.c" /* tcp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tcp.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/timer.c" /* timer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = timer.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/udp.c" /* udp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = udp.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/unix.c" /* unix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = unix.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CURIParser-0.5.0/Sources/uri_parser.c" /* uri_parser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = uri_parser.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.7.1/Sources/AttributedCookie.swift" /* AttributedCookie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedCookie.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.7.1/Sources/Cookie.swift" /* Cookie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.7.1/Sources/HTTP.swift" /* HTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.7.1/Sources/HeaderValues.swift" /* HeaderValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderValues.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.7.1/Sources/Headers.swift" /* Headers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headers.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.7.1/Sources/Message.swift" /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.7.1/Sources/Request.swift" /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.7.1/Sources/Response.swift" /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.7.1/Sources/Router.swift" /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTPParser-0.7.3/Sources/Parser.swift" /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTPParser-0.7.3/Sources/RequestParser.swift" /* RequestParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestParser.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTPParser-0.7.3/Sources/ResponseParser.swift" /* ResponseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseParser.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTPSerializer-0.7.2/Sources/BodyStream.swift" /* BodyStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyStream.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTPSerializer-0.7.2/Sources/RequestSerializer.swift" /* RequestSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSerializer.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTPSerializer-0.7.2/Sources/ResponseSerializer.swift" /* ResponseSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseSerializer.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTPServer-0.7.2/Source/Server.swift" /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/IP-0.7.0/Source/IP.swift" /* IP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IP.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MediaType-0.8.0/Source/MediaType.swift" /* MediaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/POSIX-0.5.1/Sources/POSIX.swift" /* POSIX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSIX.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/POSIXRegex-0.7.0/Source/Regex.swift" /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PathParameterMiddleware-0.7.0/Source/PathParameterMiddleware.swift" /* PathParameterMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathParameterMiddleware.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/RegexRouteMatcher-0.7.0/Source/RegexRouteMatcher.swift" /* RegexRouteMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexRouteMatcher.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Router-0.7.1/Source/Router.swift" /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Router-0.7.1/Source/RouterBuilder.swift" /* RouterBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterBuilder.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/S4-0.8.0/Sources/AsyncClient.swift" /* AsyncClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncClient.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/S4-0.8.0/Sources/AsyncMiddleware.swift" /* AsyncMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncMiddleware.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/S4-0.8.0/Sources/AsyncResponder.swift" /* AsyncResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncResponder.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/S4-0.8.0/Sources/AsyncServer.swift" /* AsyncServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncServer.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/S4-0.8.0/Sources/Body.swift" /* Body.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Body.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/S4-0.8.0/Sources/Client.swift" /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/S4-0.8.0/Sources/Error.swift" /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/S4-0.8.0/Sources/Header.swift" /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/S4-0.8.0/Sources/Headers.swift" /* Headers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headers.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/S4-0.8.0/Sources/Message.swift" /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/S4-0.8.0/Sources/Method.swift" /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/S4-0.8.0/Sources/Middleware.swift" /* Middleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Middleware.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/S4-0.8.0/Sources/Request.swift" /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/S4-0.8.0/Sources/RequestParser.swift" /* RequestParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestParser.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/S4-0.8.0/Sources/RequestSerializer.swift" /* RequestSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSerializer.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/S4-0.8.0/Sources/Responder.swift" /* Responder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responder.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/S4-0.8.0/Sources/Response.swift" /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/S4-0.8.0/Sources/ResponseParser.swift" /* ResponseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseParser.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/S4-0.8.0/Sources/ResponseSerializer.swift" /* ResponseSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseSerializer.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/S4-0.8.0/Sources/S4.swift" /* S4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S4.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/S4-0.8.0/Sources/Server.swift" /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/S4-0.8.0/Sources/Status.swift" /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/S4-0.8.0/Sources/Version.swift" /* Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/String-0.7.2/Source/String.swift" /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/StructuredData-0.8.3/Sources/StructuredData.swift" /* StructuredData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuredData.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/TCP-0.7.2/Source/TCPConnection.swift" /* TCPConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPConnection.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/TCP-0.7.2/Source/TCPError.swift" /* TCPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPError.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/TCP-0.7.2/Source/TCPServer.swift" /* TCPServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPServer.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/TrieRouteMatcher-0.7.0/Source/Trie.swift" /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/TrieRouteMatcher-0.7.0/Source/TrieRouteMatcher.swift" /* TrieRouteMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieRouteMatcher.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/URI-0.8.1/Sources/URI.swift" /* URI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URI.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/Channel/Channel.swift" /* Channel/Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel/Channel.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/Channel/ReceivingChannel.swift" /* Channel/ReceivingChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel/ReceivingChannel.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/Channel/SendingChannel.swift" /* Channel/SendingChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel/SendingChannel.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/Coroutine/Coroutine.swift" /* Coroutine/Coroutine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coroutine/Coroutine.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/FallibleChannel/FallibleChannel.swift" /* FallibleChannel/FallibleChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallibleChannel/FallibleChannel.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/FallibleChannel/FallibleReceivingChannel.swift" /* FallibleChannel/FallibleReceivingChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallibleChannel/FallibleReceivingChannel.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/FallibleChannel/FallibleSendingChannel.swift" /* FallibleChannel/FallibleSendingChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallibleChannel/FallibleSendingChannel.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/Poll/Poll.swift" /* Poll/Poll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poll/Poll.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/Select/Select.swift" /* Select/Select.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Select/Select.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/TImer/Timer.swift" /* TImer/Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TImer/Timer.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/Ticker/Ticker.swift" /* Ticker/Ticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticker/Ticker.swift; sourceTree = "<group>"; };
+		__PBXFileRef_PathParameterMiddleware_Info.plist /* PathParameterMiddleware_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = PathParameterMiddleware_Info.plist; path = ZewoSrv.xcodeproj/PathParameterMiddleware_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_RegexRouteMatcher_Info.plist /* RegexRouteMatcher_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = RegexRouteMatcher_Info.plist; path = ZewoSrv.xcodeproj/RegexRouteMatcher_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_Router_Info.plist /* Router_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Router_Info.plist; path = ZewoSrv.xcodeproj/Router_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_S4_Info.plist /* S4_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = S4_Info.plist; path = ZewoSrv.xcodeproj/S4_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_Sources/main.swift /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		__PBXFileRef_String_Info.plist /* String_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = String_Info.plist; path = ZewoSrv.xcodeproj/String_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_StructuredData_Info.plist /* StructuredData_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = StructuredData_Info.plist; path = ZewoSrv.xcodeproj/StructuredData_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_TCP_Info.plist /* TCP_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = TCP_Info.plist; path = ZewoSrv.xcodeproj/TCP_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_Tests/ZewoSrv/ZewoSrvTests.swift /* ZewoSrvTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZewoSrvTests.swift; sourceTree = "<group>"; };
+		__PBXFileRef_TrieRouteMatcher_Info.plist /* TrieRouteMatcher_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = TrieRouteMatcher_Info.plist; path = ZewoSrv.xcodeproj/TrieRouteMatcher_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_URI_Info.plist /* URI_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = URI_Info.plist; path = ZewoSrv.xcodeproj/URI_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_Venice_Info.plist /* Venice_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Venice_Info.plist; path = ZewoSrv.xcodeproj/Venice_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_ZewoSrv.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Project.xcconfig; path = ZewoSrv.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
+		__PBXFileRef_ZewoSrvTestSuite_Info.plist /* ZewoSrvTestSuite_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ZewoSrvTestSuite_Info.plist; path = ZewoSrv.xcodeproj/ZewoSrvTestSuite_Info.plist; sourceTree = SOURCE_ROOT; };
+		"_____Product_C7" /* C7.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = C7.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_CHTTPParser" /* CHTTPParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CHTTPParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_CLibvenice" /* CLibvenice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CLibvenice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_CURIParser" /* CURIParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CURIParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_HTTP" /* HTTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_HTTPParser" /* HTTPParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HTTPParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_HTTPSerializer" /* HTTPSerializer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HTTPSerializer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_HTTPServer" /* HTTPServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HTTPServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_IP" /* IP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_MediaType" /* MediaType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MediaType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_POSIX" /* POSIX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = POSIX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_POSIXRegex" /* POSIXRegex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = POSIXRegex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_PathParameterMiddleware" /* PathParameterMiddleware.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PathParameterMiddleware.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_RegexRouteMatcher" /* RegexRouteMatcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RegexRouteMatcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_Router" /* Router.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Router.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_S4" /* S4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = S4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_String" /* String.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = String.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_StructuredData" /* StructuredData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StructuredData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_TCP" /* TCP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TCP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_TrieRouteMatcher" /* TrieRouteMatcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TrieRouteMatcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_URI" /* URI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = URI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_Venice" /* Venice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Venice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_ZewoSrv" /* ZewoSrv */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ZewoSrv; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_ZewoSrvTestSuite" /* ZewoSrvTestSuite.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZewoSrvTestSuite.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		"___LinkPhase_C7" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_CHTTPParser" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_CLibvenice" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_CURIParser" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_HTTP" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_C7_via_HTTP /* C7.framework in Frameworks */,
+				_LinkFileRef_CURIParser_via_HTTP /* CURIParser.framework in Frameworks */,
+				_LinkFileRef_StructuredData_via_HTTP /* StructuredData.framework in Frameworks */,
+				_LinkFileRef_String_via_HTTP /* String.framework in Frameworks */,
+				_LinkFileRef_S4_via_HTTP /* S4.framework in Frameworks */,
+				_LinkFileRef_URI_via_HTTP /* URI.framework in Frameworks */,
+				_LinkFileRef_MediaType_via_HTTP /* MediaType.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_HTTPParser" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_C7_via_HTTPParser /* C7.framework in Frameworks */,
+				_LinkFileRef_CURIParser_via_HTTPParser /* CURIParser.framework in Frameworks */,
+				_LinkFileRef_String_via_HTTPParser /* String.framework in Frameworks */,
+				_LinkFileRef_S4_via_HTTPParser /* S4.framework in Frameworks */,
+				_LinkFileRef_URI_via_HTTPParser /* URI.framework in Frameworks */,
+				_LinkFileRef_CHTTPParser_via_HTTPParser /* CHTTPParser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_HTTPSerializer" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_CURIParser_via_HTTPSerializer /* CURIParser.framework in Frameworks */,
+				_LinkFileRef_String_via_HTTPSerializer /* String.framework in Frameworks */,
+				_LinkFileRef_C7_via_HTTPSerializer /* C7.framework in Frameworks */,
+				_LinkFileRef_URI_via_HTTPSerializer /* URI.framework in Frameworks */,
+				_LinkFileRef_S4_via_HTTPSerializer /* S4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_HTTPServer" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_CLibvenice_via_HTTPServer /* CLibvenice.framework in Frameworks */,
+				_LinkFileRef_C7_via_HTTPServer /* C7.framework in Frameworks */,
+				_LinkFileRef_CURIParser_via_HTTPServer /* CURIParser.framework in Frameworks */,
+				_LinkFileRef_String_via_HTTPServer /* String.framework in Frameworks */,
+				_LinkFileRef_POSIX_via_HTTPServer /* POSIX.framework in Frameworks */,
+				_LinkFileRef_Venice_via_HTTPServer /* Venice.framework in Frameworks */,
+				_LinkFileRef_S4_via_HTTPServer /* S4.framework in Frameworks */,
+				_LinkFileRef_URI_via_HTTPServer /* URI.framework in Frameworks */,
+				_LinkFileRef_CHTTPParser_via_HTTPServer /* CHTTPParser.framework in Frameworks */,
+				_LinkFileRef_IP_via_HTTPServer /* IP.framework in Frameworks */,
+				_LinkFileRef_HTTPSerializer_via_HTTPServer /* HTTPSerializer.framework in Frameworks */,
+				_LinkFileRef_HTTPParser_via_HTTPServer /* HTTPParser.framework in Frameworks */,
+				_LinkFileRef_TCP_via_HTTPServer /* TCP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_IP" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_C7_via_IP /* C7.framework in Frameworks */,
+				_LinkFileRef_CLibvenice_via_IP /* CLibvenice.framework in Frameworks */,
+				_LinkFileRef_POSIX_via_IP /* POSIX.framework in Frameworks */,
+				_LinkFileRef_Venice_via_IP /* Venice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_MediaType" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_C7_via_MediaType /* C7.framework in Frameworks */,
+				_LinkFileRef_StructuredData_via_MediaType /* StructuredData.framework in Frameworks */,
+				_LinkFileRef_String_via_MediaType /* String.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_POSIX" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_POSIXRegex" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_C7_via_POSIXRegex /* C7.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_PathParameterMiddleware" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_C7_via_PathParameterMiddleware /* C7.framework in Frameworks */,
+				_LinkFileRef_CURIParser_via_PathParameterMiddleware /* CURIParser.framework in Frameworks */,
+				_LinkFileRef_StructuredData_via_PathParameterMiddleware /* StructuredData.framework in Frameworks */,
+				_LinkFileRef_String_via_PathParameterMiddleware /* String.framework in Frameworks */,
+				_LinkFileRef_S4_via_PathParameterMiddleware /* S4.framework in Frameworks */,
+				_LinkFileRef_URI_via_PathParameterMiddleware /* URI.framework in Frameworks */,
+				_LinkFileRef_MediaType_via_PathParameterMiddleware /* MediaType.framework in Frameworks */,
+				_LinkFileRef_HTTP_via_PathParameterMiddleware /* HTTP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_RegexRouteMatcher" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_CURIParser_via_RegexRouteMatcher /* CURIParser.framework in Frameworks */,
+				_LinkFileRef_StructuredData_via_RegexRouteMatcher /* StructuredData.framework in Frameworks */,
+				_LinkFileRef_String_via_RegexRouteMatcher /* String.framework in Frameworks */,
+				_LinkFileRef_S4_via_RegexRouteMatcher /* S4.framework in Frameworks */,
+				_LinkFileRef_URI_via_RegexRouteMatcher /* URI.framework in Frameworks */,
+				_LinkFileRef_MediaType_via_RegexRouteMatcher /* MediaType.framework in Frameworks */,
+				_LinkFileRef_C7_via_RegexRouteMatcher /* C7.framework in Frameworks */,
+				_LinkFileRef_PathParameterMiddleware_via_RegexRouteMatcher /* PathParameterMiddleware.framework in Frameworks */,
+				_LinkFileRef_HTTP_via_RegexRouteMatcher /* HTTP.framework in Frameworks */,
+				_LinkFileRef_POSIXRegex_via_RegexRouteMatcher /* POSIXRegex.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_Router" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_CURIParser_via_Router /* CURIParser.framework in Frameworks */,
+				_LinkFileRef_StructuredData_via_Router /* StructuredData.framework in Frameworks */,
+				_LinkFileRef_String_via_Router /* String.framework in Frameworks */,
+				_LinkFileRef_S4_via_Router /* S4.framework in Frameworks */,
+				_LinkFileRef_URI_via_Router /* URI.framework in Frameworks */,
+				_LinkFileRef_MediaType_via_Router /* MediaType.framework in Frameworks */,
+				_LinkFileRef_C7_via_Router /* C7.framework in Frameworks */,
+				_LinkFileRef_PathParameterMiddleware_via_Router /* PathParameterMiddleware.framework in Frameworks */,
+				_LinkFileRef_HTTP_via_Router /* HTTP.framework in Frameworks */,
+				_LinkFileRef_POSIXRegex_via_Router /* POSIXRegex.framework in Frameworks */,
+				_LinkFileRef_TrieRouteMatcher_via_Router /* TrieRouteMatcher.framework in Frameworks */,
+				_LinkFileRef_RegexRouteMatcher_via_Router /* RegexRouteMatcher.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_S4" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_C7_via_S4 /* C7.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_String" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_StructuredData" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_C7_via_StructuredData /* C7.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_TCP" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_C7_via_TCP /* C7.framework in Frameworks */,
+				_LinkFileRef_CLibvenice_via_TCP /* CLibvenice.framework in Frameworks */,
+				_LinkFileRef_POSIX_via_TCP /* POSIX.framework in Frameworks */,
+				_LinkFileRef_Venice_via_TCP /* Venice.framework in Frameworks */,
+				_LinkFileRef_IP_via_TCP /* IP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_TrieRouteMatcher" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_C7_via_TrieRouteMatcher /* C7.framework in Frameworks */,
+				_LinkFileRef_CURIParser_via_TrieRouteMatcher /* CURIParser.framework in Frameworks */,
+				_LinkFileRef_StructuredData_via_TrieRouteMatcher /* StructuredData.framework in Frameworks */,
+				_LinkFileRef_String_via_TrieRouteMatcher /* String.framework in Frameworks */,
+				_LinkFileRef_S4_via_TrieRouteMatcher /* S4.framework in Frameworks */,
+				_LinkFileRef_URI_via_TrieRouteMatcher /* URI.framework in Frameworks */,
+				_LinkFileRef_MediaType_via_TrieRouteMatcher /* MediaType.framework in Frameworks */,
+				_LinkFileRef_PathParameterMiddleware_via_TrieRouteMatcher /* PathParameterMiddleware.framework in Frameworks */,
+				_LinkFileRef_HTTP_via_TrieRouteMatcher /* HTTP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_URI" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_C7_via_URI /* C7.framework in Frameworks */,
+				_LinkFileRef_CURIParser_via_URI /* CURIParser.framework in Frameworks */,
+				_LinkFileRef_String_via_URI /* String.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_Venice" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_C7_via_Venice /* C7.framework in Frameworks */,
+				_LinkFileRef_CLibvenice_via_Venice /* CLibvenice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_ZewoSrv" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_StructuredData_via_ZewoSrv /* StructuredData.framework in Frameworks */,
+				_LinkFileRef_CLibvenice_via_ZewoSrv /* CLibvenice.framework in Frameworks */,
+				_LinkFileRef_MediaType_via_ZewoSrv /* MediaType.framework in Frameworks */,
+				_LinkFileRef_C7_via_ZewoSrv /* C7.framework in Frameworks */,
+				_LinkFileRef_CURIParser_via_ZewoSrv /* CURIParser.framework in Frameworks */,
+				_LinkFileRef_String_via_ZewoSrv /* String.framework in Frameworks */,
+				_LinkFileRef_POSIX_via_ZewoSrv /* POSIX.framework in Frameworks */,
+				_LinkFileRef_Venice_via_ZewoSrv /* Venice.framework in Frameworks */,
+				_LinkFileRef_PathParameterMiddleware_via_ZewoSrv /* PathParameterMiddleware.framework in Frameworks */,
+				_LinkFileRef_HTTP_via_ZewoSrv /* HTTP.framework in Frameworks */,
+				_LinkFileRef_POSIXRegex_via_ZewoSrv /* POSIXRegex.framework in Frameworks */,
+				_LinkFileRef_S4_via_ZewoSrv /* S4.framework in Frameworks */,
+				_LinkFileRef_URI_via_ZewoSrv /* URI.framework in Frameworks */,
+				_LinkFileRef_CHTTPParser_via_ZewoSrv /* CHTTPParser.framework in Frameworks */,
+				_LinkFileRef_IP_via_ZewoSrv /* IP.framework in Frameworks */,
+				_LinkFileRef_TrieRouteMatcher_via_ZewoSrv /* TrieRouteMatcher.framework in Frameworks */,
+				_LinkFileRef_RegexRouteMatcher_via_ZewoSrv /* RegexRouteMatcher.framework in Frameworks */,
+				_LinkFileRef_HTTPSerializer_via_ZewoSrv /* HTTPSerializer.framework in Frameworks */,
+				_LinkFileRef_HTTPParser_via_ZewoSrv /* HTTPParser.framework in Frameworks */,
+				_LinkFileRef_TCP_via_ZewoSrv /* TCP.framework in Frameworks */,
+				_LinkFileRef_Router_via_ZewoSrv /* Router.framework in Frameworks */,
+				_LinkFileRef_HTTPServer_via_ZewoSrv /* HTTPServer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_ZewoSrvTestSuite" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_StructuredData_via_ZewoSrvTestSuite /* StructuredData.framework in Frameworks */,
+				_LinkFileRef_CLibvenice_via_ZewoSrvTestSuite /* CLibvenice.framework in Frameworks */,
+				_LinkFileRef_MediaType_via_ZewoSrvTestSuite /* MediaType.framework in Frameworks */,
+				_LinkFileRef_C7_via_ZewoSrvTestSuite /* C7.framework in Frameworks */,
+				_LinkFileRef_CURIParser_via_ZewoSrvTestSuite /* CURIParser.framework in Frameworks */,
+				_LinkFileRef_String_via_ZewoSrvTestSuite /* String.framework in Frameworks */,
+				_LinkFileRef_POSIX_via_ZewoSrvTestSuite /* POSIX.framework in Frameworks */,
+				_LinkFileRef_Venice_via_ZewoSrvTestSuite /* Venice.framework in Frameworks */,
+				_LinkFileRef_PathParameterMiddleware_via_ZewoSrvTestSuite /* PathParameterMiddleware.framework in Frameworks */,
+				_LinkFileRef_HTTP_via_ZewoSrvTestSuite /* HTTP.framework in Frameworks */,
+				_LinkFileRef_POSIXRegex_via_ZewoSrvTestSuite /* POSIXRegex.framework in Frameworks */,
+				_LinkFileRef_S4_via_ZewoSrvTestSuite /* S4.framework in Frameworks */,
+				_LinkFileRef_URI_via_ZewoSrvTestSuite /* URI.framework in Frameworks */,
+				_LinkFileRef_CHTTPParser_via_ZewoSrvTestSuite /* CHTTPParser.framework in Frameworks */,
+				_LinkFileRef_IP_via_ZewoSrvTestSuite /* IP.framework in Frameworks */,
+				_LinkFileRef_TrieRouteMatcher_via_ZewoSrvTestSuite /* TrieRouteMatcher.framework in Frameworks */,
+				_LinkFileRef_RegexRouteMatcher_via_ZewoSrvTestSuite /* RegexRouteMatcher.framework in Frameworks */,
+				_LinkFileRef_HTTPSerializer_via_ZewoSrvTestSuite /* HTTPSerializer.framework in Frameworks */,
+				_LinkFileRef_HTTPParser_via_ZewoSrvTestSuite /* HTTPParser.framework in Frameworks */,
+				_LinkFileRef_TCP_via_ZewoSrvTestSuite /* TCP.framework in Frameworks */,
+				_LinkFileRef_Router_via_ZewoSrvTestSuite /* Router.framework in Frameworks */,
+				_LinkFileRef_HTTPServer_via_ZewoSrvTestSuite /* HTTPServer.framework in Frameworks */,
+				_LinkFileRef_ZewoSrv_via_ZewoSrvTestSuite /* ZewoSrv in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		Dependencies_ /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_CLibvenice" /* CLibvenice */,
+				"_______Group_C7" /* C7 */,
+				"_______Group_Venice" /* Venice */,
+				"_______Group_POSIX" /* POSIX */,
+				"_______Group_IP" /* IP */,
+				"_______Group_TCP" /* TCP */,
+				"_______Group_CHTTPParser" /* CHTTPParser */,
+				"_______Group_String" /* String */,
+				"_______Group_CURIParser" /* CURIParser */,
+				"_______Group_URI" /* URI */,
+				"_______Group_S4" /* S4 */,
+				"_______Group_HTTPParser" /* HTTPParser */,
+				"_______Group_HTTPSerializer" /* HTTPSerializer */,
+				"_______Group_HTTPServer" /* HTTPServer */,
+				"_______Group_POSIXRegex" /* POSIXRegex */,
+				"_______Group_StructuredData" /* StructuredData */,
+				"_______Group_MediaType" /* MediaType */,
+				"_______Group_HTTP" /* HTTP */,
+				"_______Group_PathParameterMiddleware" /* PathParameterMiddleware */,
+				"_______Group_RegexRouteMatcher" /* RegexRouteMatcher */,
+				"_______Group_TrieRouteMatcher" /* TrieRouteMatcher */,
+				"_______Group_Router" /* Router */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		TestProducts_ /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				"_____Product_ZewoSrvTestSuite" /* ZewoSrvTestSuite.xctest */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		"___RootGroup_" = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Package.swift /* Package.swift */,
+				"_____Configs_" /* Configs */,
+				"_____Sources_" /* Sources */,
+				Dependencies_ /* Dependencies */,
+				"_______Tests_" /* Tests */,
+				"____Products_" /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		"____Products_" /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				TestProducts_ /* Tests */,
+				"_____Product_CLibvenice" /* CLibvenice.framework */,
+				"_____Product_C7" /* C7.framework */,
+				"_____Product_Venice" /* Venice.framework */,
+				"_____Product_POSIX" /* POSIX.framework */,
+				"_____Product_IP" /* IP.framework */,
+				"_____Product_TCP" /* TCP.framework */,
+				"_____Product_CHTTPParser" /* CHTTPParser.framework */,
+				"_____Product_String" /* String.framework */,
+				"_____Product_CURIParser" /* CURIParser.framework */,
+				"_____Product_URI" /* URI.framework */,
+				"_____Product_S4" /* S4.framework */,
+				"_____Product_HTTPParser" /* HTTPParser.framework */,
+				"_____Product_HTTPSerializer" /* HTTPSerializer.framework */,
+				"_____Product_HTTPServer" /* HTTPServer.framework */,
+				"_____Product_POSIXRegex" /* POSIXRegex.framework */,
+				"_____Product_StructuredData" /* StructuredData.framework */,
+				"_____Product_MediaType" /* MediaType.framework */,
+				"_____Product_HTTP" /* HTTP.framework */,
+				"_____Product_PathParameterMiddleware" /* PathParameterMiddleware.framework */,
+				"_____Product_RegexRouteMatcher" /* RegexRouteMatcher.framework */,
+				"_____Product_TrieRouteMatcher" /* TrieRouteMatcher.framework */,
+				"_____Product_Router" /* Router.framework */,
+				"_____Product_ZewoSrv" /* ZewoSrv */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		"_____Configs_" /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_ZewoSrv.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */,
+			);
+			name = Configs;
+			sourceTree = "<group>";
+		};
+		"_____Sources_" /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_ZewoSrv" /* ZewoSrv */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_C7" /* C7 */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/C7-0.8.1/Sources/AsyncConnection.swift" /* AsyncConnection.swift */,
+				"__PBXFileRef_Packages/C7-0.8.1/Sources/AsyncDrain.swift" /* AsyncDrain.swift */,
+				"__PBXFileRef_Packages/C7-0.8.1/Sources/AsyncHost.swift" /* AsyncHost.swift */,
+				"__PBXFileRef_Packages/C7-0.8.1/Sources/AsyncStream.swift" /* AsyncStream.swift */,
+				"__PBXFileRef_Packages/C7-0.8.1/Sources/AsyncURIConnection.swift" /* AsyncURIConnection.swift */,
+				"__PBXFileRef_Packages/C7-0.8.1/Sources/Byte.swift" /* Byte.swift */,
+				"__PBXFileRef_Packages/C7-0.8.1/Sources/C7.swift" /* C7.swift */,
+				"__PBXFileRef_Packages/C7-0.8.1/Sources/CaseInsensitiveString.swift" /* CaseInsensitiveString.swift */,
+				"__PBXFileRef_Packages/C7-0.8.1/Sources/Closable.swift" /* Closable.swift */,
+				"__PBXFileRef_Packages/C7-0.8.1/Sources/Connection.swift" /* Connection.swift */,
+				"__PBXFileRef_Packages/C7-0.8.1/Sources/CustomDataStore.swift" /* CustomDataStore.swift */,
+				"__PBXFileRef_Packages/C7-0.8.1/Sources/Data.swift" /* Data.swift */,
+				"__PBXFileRef_Packages/C7-0.8.1/Sources/Drain.swift" /* Drain.swift */,
+				"__PBXFileRef_Packages/C7-0.8.1/Sources/Host.swift" /* Host.swift */,
+				"__PBXFileRef_Packages/C7-0.8.1/Sources/JSON.swift" /* JSON.swift */,
+				"__PBXFileRef_Packages/C7-0.8.1/Sources/Number.swift" /* Number.swift */,
+				"__PBXFileRef_Packages/C7-0.8.1/Sources/Stream.swift" /* Stream.swift */,
+				"__PBXFileRef_Packages/C7-0.8.1/Sources/StreamError.swift" /* StreamError.swift */,
+				"__PBXFileRef_Packages/C7-0.8.1/Sources/StreamSequence.swift" /* StreamSequence.swift */,
+				"__PBXFileRef_Packages/C7-0.8.1/Sources/StructuredData.swift" /* StructuredData.swift */,
+				"__PBXFileRef_Packages/C7-0.8.1/Sources/Time.swift" /* Time.swift */,
+				"__PBXFileRef_Packages/C7-0.8.1/Sources/URI.swift" /* URI.swift */,
+				"__PBXFileRef_Packages/C7-0.8.1/Sources/URIConnection.swift" /* URIConnection.swift */,
+				__PBXFileRef_C7_Info.plist /* C7_Info.plist */,
+			);
+			name = C7;
+			path = "Packages/C7-0.8.1/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_CHTTPParser" /* CHTTPParser */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/CHTTPParser-0.5.0/Sources/http_parser.c" /* http_parser.c */,
+				__PBXFileRef_CHTTPParser_Info.plist /* CHTTPParser_Info.plist */,
+			);
+			name = CHTTPParser;
+			path = "Packages/CHTTPParser-0.5.0/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_CLibvenice" /* CLibvenice */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/chan.c" /* chan.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/cr.c" /* cr.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/debug.c" /* debug.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/dns.c" /* dns.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/file.c" /* file.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/ip.c" /* ip.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/list.c" /* list.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/poller.c" /* poller.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/slist.c" /* slist.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/stack.c" /* stack.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/tcp.c" /* tcp.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/timer.c" /* timer.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/udp.c" /* udp.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/unix.c" /* unix.c */,
+				__PBXFileRef_CLibvenice_Info.plist /* CLibvenice_Info.plist */,
+			);
+			name = CLibvenice;
+			path = "Packages/CLibvenice-0.5.1/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_CURIParser" /* CURIParser */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/CURIParser-0.5.0/Sources/uri_parser.c" /* uri_parser.c */,
+				__PBXFileRef_CURIParser_Info.plist /* CURIParser_Info.plist */,
+			);
+			name = CURIParser;
+			path = "Packages/CURIParser-0.5.0/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_HTTP" /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/HTTP-0.7.1/Sources/AttributedCookie.swift" /* AttributedCookie.swift */,
+				"__PBXFileRef_Packages/HTTP-0.7.1/Sources/Cookie.swift" /* Cookie.swift */,
+				"__PBXFileRef_Packages/HTTP-0.7.1/Sources/Headers.swift" /* Headers.swift */,
+				"__PBXFileRef_Packages/HTTP-0.7.1/Sources/HeaderValues.swift" /* HeaderValues.swift */,
+				"__PBXFileRef_Packages/HTTP-0.7.1/Sources/HTTP.swift" /* HTTP.swift */,
+				"__PBXFileRef_Packages/HTTP-0.7.1/Sources/Message.swift" /* Message.swift */,
+				"__PBXFileRef_Packages/HTTP-0.7.1/Sources/Request.swift" /* Request.swift */,
+				"__PBXFileRef_Packages/HTTP-0.7.1/Sources/Response.swift" /* Response.swift */,
+				"__PBXFileRef_Packages/HTTP-0.7.1/Sources/Router.swift" /* Router.swift */,
+				__PBXFileRef_HTTP_Info.plist /* HTTP_Info.plist */,
+			);
+			name = HTTP;
+			path = "Packages/HTTP-0.7.1/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_HTTPParser" /* HTTPParser */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/HTTPParser-0.7.3/Sources/Parser.swift" /* Parser.swift */,
+				"__PBXFileRef_Packages/HTTPParser-0.7.3/Sources/RequestParser.swift" /* RequestParser.swift */,
+				"__PBXFileRef_Packages/HTTPParser-0.7.3/Sources/ResponseParser.swift" /* ResponseParser.swift */,
+				__PBXFileRef_HTTPParser_Info.plist /* HTTPParser_Info.plist */,
+			);
+			name = HTTPParser;
+			path = "Packages/HTTPParser-0.7.3/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_HTTPSerializer" /* HTTPSerializer */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/HTTPSerializer-0.7.2/Sources/BodyStream.swift" /* BodyStream.swift */,
+				"__PBXFileRef_Packages/HTTPSerializer-0.7.2/Sources/RequestSerializer.swift" /* RequestSerializer.swift */,
+				"__PBXFileRef_Packages/HTTPSerializer-0.7.2/Sources/ResponseSerializer.swift" /* ResponseSerializer.swift */,
+				__PBXFileRef_HTTPSerializer_Info.plist /* HTTPSerializer_Info.plist */,
+			);
+			name = HTTPSerializer;
+			path = "Packages/HTTPSerializer-0.7.2/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_HTTPServer" /* HTTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/HTTPServer-0.7.2/Source/Server.swift" /* Server.swift */,
+				__PBXFileRef_HTTPServer_Info.plist /* HTTPServer_Info.plist */,
+			);
+			name = HTTPServer;
+			path = "Packages/HTTPServer-0.7.2/Source";
+			sourceTree = "<group>";
+		};
+		"_______Group_IP" /* IP */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/IP-0.7.0/Source/IP.swift" /* IP.swift */,
+				__PBXFileRef_IP_Info.plist /* IP_Info.plist */,
+			);
+			name = IP;
+			path = "Packages/IP-0.7.0/Source";
+			sourceTree = "<group>";
+		};
+		"_______Group_MediaType" /* MediaType */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/MediaType-0.8.0/Source/MediaType.swift" /* MediaType.swift */,
+				__PBXFileRef_MediaType_Info.plist /* MediaType_Info.plist */,
+			);
+			name = MediaType;
+			path = "Packages/MediaType-0.8.0/Source";
+			sourceTree = "<group>";
+		};
+		"_______Group_POSIX" /* POSIX */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/POSIX-0.5.1/Sources/POSIX.swift" /* POSIX.swift */,
+				__PBXFileRef_POSIX_Info.plist /* POSIX_Info.plist */,
+			);
+			name = POSIX;
+			path = "Packages/POSIX-0.5.1/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_POSIXRegex" /* POSIXRegex */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/POSIXRegex-0.7.0/Source/Regex.swift" /* Regex.swift */,
+				__PBXFileRef_POSIXRegex_Info.plist /* POSIXRegex_Info.plist */,
+			);
+			name = POSIXRegex;
+			path = "Packages/POSIXRegex-0.7.0/Source";
+			sourceTree = "<group>";
+		};
+		"_______Group_PathParameterMiddleware" /* PathParameterMiddleware */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/PathParameterMiddleware-0.7.0/Source/PathParameterMiddleware.swift" /* PathParameterMiddleware.swift */,
+				__PBXFileRef_PathParameterMiddleware_Info.plist /* PathParameterMiddleware_Info.plist */,
+			);
+			name = PathParameterMiddleware;
+			path = "Packages/PathParameterMiddleware-0.7.0/Source";
+			sourceTree = "<group>";
+		};
+		"_______Group_RegexRouteMatcher" /* RegexRouteMatcher */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/RegexRouteMatcher-0.7.0/Source/RegexRouteMatcher.swift" /* RegexRouteMatcher.swift */,
+				__PBXFileRef_RegexRouteMatcher_Info.plist /* RegexRouteMatcher_Info.plist */,
+			);
+			name = RegexRouteMatcher;
+			path = "Packages/RegexRouteMatcher-0.7.0/Source";
+			sourceTree = "<group>";
+		};
+		"_______Group_Router" /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Router-0.7.1/Source/Router.swift" /* Router.swift */,
+				"__PBXFileRef_Packages/Router-0.7.1/Source/RouterBuilder.swift" /* RouterBuilder.swift */,
+				__PBXFileRef_Router_Info.plist /* Router_Info.plist */,
+			);
+			name = Router;
+			path = "Packages/Router-0.7.1/Source";
+			sourceTree = "<group>";
+		};
+		"_______Group_S4" /* S4 */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/S4-0.8.0/Sources/AsyncClient.swift" /* AsyncClient.swift */,
+				"__PBXFileRef_Packages/S4-0.8.0/Sources/AsyncMiddleware.swift" /* AsyncMiddleware.swift */,
+				"__PBXFileRef_Packages/S4-0.8.0/Sources/AsyncResponder.swift" /* AsyncResponder.swift */,
+				"__PBXFileRef_Packages/S4-0.8.0/Sources/AsyncServer.swift" /* AsyncServer.swift */,
+				"__PBXFileRef_Packages/S4-0.8.0/Sources/Body.swift" /* Body.swift */,
+				"__PBXFileRef_Packages/S4-0.8.0/Sources/Client.swift" /* Client.swift */,
+				"__PBXFileRef_Packages/S4-0.8.0/Sources/Error.swift" /* Error.swift */,
+				"__PBXFileRef_Packages/S4-0.8.0/Sources/Header.swift" /* Header.swift */,
+				"__PBXFileRef_Packages/S4-0.8.0/Sources/Headers.swift" /* Headers.swift */,
+				"__PBXFileRef_Packages/S4-0.8.0/Sources/Message.swift" /* Message.swift */,
+				"__PBXFileRef_Packages/S4-0.8.0/Sources/Method.swift" /* Method.swift */,
+				"__PBXFileRef_Packages/S4-0.8.0/Sources/Middleware.swift" /* Middleware.swift */,
+				"__PBXFileRef_Packages/S4-0.8.0/Sources/Request.swift" /* Request.swift */,
+				"__PBXFileRef_Packages/S4-0.8.0/Sources/RequestParser.swift" /* RequestParser.swift */,
+				"__PBXFileRef_Packages/S4-0.8.0/Sources/RequestSerializer.swift" /* RequestSerializer.swift */,
+				"__PBXFileRef_Packages/S4-0.8.0/Sources/Responder.swift" /* Responder.swift */,
+				"__PBXFileRef_Packages/S4-0.8.0/Sources/Response.swift" /* Response.swift */,
+				"__PBXFileRef_Packages/S4-0.8.0/Sources/ResponseParser.swift" /* ResponseParser.swift */,
+				"__PBXFileRef_Packages/S4-0.8.0/Sources/ResponseSerializer.swift" /* ResponseSerializer.swift */,
+				"__PBXFileRef_Packages/S4-0.8.0/Sources/S4.swift" /* S4.swift */,
+				"__PBXFileRef_Packages/S4-0.8.0/Sources/Server.swift" /* Server.swift */,
+				"__PBXFileRef_Packages/S4-0.8.0/Sources/Status.swift" /* Status.swift */,
+				"__PBXFileRef_Packages/S4-0.8.0/Sources/Version.swift" /* Version.swift */,
+				__PBXFileRef_S4_Info.plist /* S4_Info.plist */,
+			);
+			name = S4;
+			path = "Packages/S4-0.8.0/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_String" /* String */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/String-0.7.2/Source/String.swift" /* String.swift */,
+				__PBXFileRef_String_Info.plist /* String_Info.plist */,
+			);
+			name = String;
+			path = "Packages/String-0.7.2/Source";
+			sourceTree = "<group>";
+		};
+		"_______Group_StructuredData" /* StructuredData */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/StructuredData-0.8.3/Sources/StructuredData.swift" /* StructuredData.swift */,
+				__PBXFileRef_StructuredData_Info.plist /* StructuredData_Info.plist */,
+			);
+			name = StructuredData;
+			path = "Packages/StructuredData-0.8.3/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_TCP" /* TCP */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/TCP-0.7.2/Source/TCPConnection.swift" /* TCPConnection.swift */,
+				"__PBXFileRef_Packages/TCP-0.7.2/Source/TCPError.swift" /* TCPError.swift */,
+				"__PBXFileRef_Packages/TCP-0.7.2/Source/TCPServer.swift" /* TCPServer.swift */,
+				__PBXFileRef_TCP_Info.plist /* TCP_Info.plist */,
+			);
+			name = TCP;
+			path = "Packages/TCP-0.7.2/Source";
+			sourceTree = "<group>";
+		};
+		"_______Group_TrieRouteMatcher" /* TrieRouteMatcher */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/TrieRouteMatcher-0.7.0/Source/Trie.swift" /* Trie.swift */,
+				"__PBXFileRef_Packages/TrieRouteMatcher-0.7.0/Source/TrieRouteMatcher.swift" /* TrieRouteMatcher.swift */,
+				__PBXFileRef_TrieRouteMatcher_Info.plist /* TrieRouteMatcher_Info.plist */,
+			);
+			name = TrieRouteMatcher;
+			path = "Packages/TrieRouteMatcher-0.7.0/Source";
+			sourceTree = "<group>";
+		};
+		"_______Group_URI" /* URI */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/URI-0.8.1/Sources/URI.swift" /* URI.swift */,
+				__PBXFileRef_URI_Info.plist /* URI_Info.plist */,
+			);
+			name = URI;
+			path = "Packages/URI-0.8.1/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_Venice" /* Venice */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/Channel/Channel.swift" /* Channel/Channel.swift */,
+				"__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/Channel/ReceivingChannel.swift" /* Channel/ReceivingChannel.swift */,
+				"__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/Channel/SendingChannel.swift" /* Channel/SendingChannel.swift */,
+				"__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/Coroutine/Coroutine.swift" /* Coroutine/Coroutine.swift */,
+				"__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/FallibleChannel/FallibleChannel.swift" /* FallibleChannel/FallibleChannel.swift */,
+				"__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/FallibleChannel/FallibleReceivingChannel.swift" /* FallibleChannel/FallibleReceivingChannel.swift */,
+				"__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/FallibleChannel/FallibleSendingChannel.swift" /* FallibleChannel/FallibleSendingChannel.swift */,
+				"__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/Poll/Poll.swift" /* Poll/Poll.swift */,
+				"__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/Select/Select.swift" /* Select/Select.swift */,
+				"__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/Ticker/Ticker.swift" /* Ticker/Ticker.swift */,
+				"__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/TImer/Timer.swift" /* TImer/Timer.swift */,
+				__PBXFileRef_Venice_Info.plist /* Venice_Info.plist */,
+			);
+			name = Venice;
+			path = "Packages/Venice-0.7.2/Source/Venice";
+			sourceTree = "<group>";
+		};
+		"_______Group_ZewoSrv" /* ZewoSrv */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Sources/main.swift /* main.swift */,
+			);
+			name = ZewoSrv;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_ZewoSrvTestSuite" /* ZewoSrvTestSuite */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Tests/ZewoSrv/ZewoSrvTests.swift /* ZewoSrvTests.swift */,
+				__PBXFileRef_ZewoSrvTestSuite_Info.plist /* ZewoSrvTestSuite_Info.plist */,
+			);
+			name = ZewoSrvTestSuite;
+			path = Tests/ZewoSrv;
+			sourceTree = "<group>";
+		};
+		"_______Tests_" /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_ZewoSrvTestSuite" /* ZewoSrvTestSuite */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"______Target_C7" /* C7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_C7" /* Build configuration list for PBXNativeTarget "C7" */;
+			buildPhases = (
+				CompilePhase_C7 /* Sources */,
+				"___LinkPhase_C7" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = C7;
+			productName = C7;
+			productReference = "_____Product_C7" /* C7.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_CHTTPParser" /* CHTTPParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_CHTTPParser" /* Build configuration list for PBXNativeTarget "CHTTPParser" */;
+			buildPhases = (
+				CompilePhase_CHTTPParser /* Sources */,
+				"___LinkPhase_CHTTPParser" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHTTPParser;
+			productName = CHTTPParser;
+			productReference = "_____Product_CHTTPParser" /* CHTTPParser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_CLibvenice" /* CLibvenice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_CLibvenice" /* Build configuration list for PBXNativeTarget "CLibvenice" */;
+			buildPhases = (
+				CompilePhase_CLibvenice /* Sources */,
+				"___LinkPhase_CLibvenice" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLibvenice;
+			productName = CLibvenice;
+			productReference = "_____Product_CLibvenice" /* CLibvenice.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_CURIParser" /* CURIParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_CURIParser" /* Build configuration list for PBXNativeTarget "CURIParser" */;
+			buildPhases = (
+				CompilePhase_CURIParser /* Sources */,
+				"___LinkPhase_CURIParser" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CURIParser;
+			productName = CURIParser;
+			productReference = "_____Product_CURIParser" /* CURIParser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_HTTP" /* HTTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_HTTP" /* Build configuration list for PBXNativeTarget "HTTP" */;
+			buildPhases = (
+				CompilePhase_HTTP /* Sources */,
+				"___LinkPhase_HTTP" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_CURIParser /* PBXTargetDependency */,
+				__Dependency_StructuredData /* PBXTargetDependency */,
+				__Dependency_String /* PBXTargetDependency */,
+				__Dependency_S4 /* PBXTargetDependency */,
+				__Dependency_URI /* PBXTargetDependency */,
+				__Dependency_MediaType /* PBXTargetDependency */,
+			);
+			name = HTTP;
+			productName = HTTP;
+			productReference = "_____Product_HTTP" /* HTTP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_HTTPParser" /* HTTPParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_HTTPParser" /* Build configuration list for PBXNativeTarget "HTTPParser" */;
+			buildPhases = (
+				CompilePhase_HTTPParser /* Sources */,
+				"___LinkPhase_HTTPParser" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_CURIParser /* PBXTargetDependency */,
+				__Dependency_String /* PBXTargetDependency */,
+				__Dependency_S4 /* PBXTargetDependency */,
+				__Dependency_URI /* PBXTargetDependency */,
+				__Dependency_CHTTPParser /* PBXTargetDependency */,
+			);
+			name = HTTPParser;
+			productName = HTTPParser;
+			productReference = "_____Product_HTTPParser" /* HTTPParser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_HTTPSerializer" /* HTTPSerializer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_HTTPSerializer" /* Build configuration list for PBXNativeTarget "HTTPSerializer" */;
+			buildPhases = (
+				CompilePhase_HTTPSerializer /* Sources */,
+				"___LinkPhase_HTTPSerializer" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_CURIParser /* PBXTargetDependency */,
+				__Dependency_String /* PBXTargetDependency */,
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_URI /* PBXTargetDependency */,
+				__Dependency_S4 /* PBXTargetDependency */,
+			);
+			name = HTTPSerializer;
+			productName = HTTPSerializer;
+			productReference = "_____Product_HTTPSerializer" /* HTTPSerializer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_HTTPServer" /* HTTPServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_HTTPServer" /* Build configuration list for PBXNativeTarget "HTTPServer" */;
+			buildPhases = (
+				CompilePhase_HTTPServer /* Sources */,
+				"___LinkPhase_HTTPServer" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_CLibvenice /* PBXTargetDependency */,
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_CURIParser /* PBXTargetDependency */,
+				__Dependency_String /* PBXTargetDependency */,
+				__Dependency_POSIX /* PBXTargetDependency */,
+				__Dependency_Venice /* PBXTargetDependency */,
+				__Dependency_S4 /* PBXTargetDependency */,
+				__Dependency_URI /* PBXTargetDependency */,
+				__Dependency_CHTTPParser /* PBXTargetDependency */,
+				__Dependency_IP /* PBXTargetDependency */,
+				__Dependency_HTTPSerializer /* PBXTargetDependency */,
+				__Dependency_HTTPParser /* PBXTargetDependency */,
+				__Dependency_TCP /* PBXTargetDependency */,
+			);
+			name = HTTPServer;
+			productName = HTTPServer;
+			productReference = "_____Product_HTTPServer" /* HTTPServer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_IP" /* IP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_IP" /* Build configuration list for PBXNativeTarget "IP" */;
+			buildPhases = (
+				CompilePhase_IP /* Sources */,
+				"___LinkPhase_IP" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_CLibvenice /* PBXTargetDependency */,
+				__Dependency_POSIX /* PBXTargetDependency */,
+				__Dependency_Venice /* PBXTargetDependency */,
+			);
+			name = IP;
+			productName = IP;
+			productReference = "_____Product_IP" /* IP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_MediaType" /* MediaType */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_MediaType" /* Build configuration list for PBXNativeTarget "MediaType" */;
+			buildPhases = (
+				CompilePhase_MediaType /* Sources */,
+				"___LinkPhase_MediaType" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_StructuredData /* PBXTargetDependency */,
+				__Dependency_String /* PBXTargetDependency */,
+			);
+			name = MediaType;
+			productName = MediaType;
+			productReference = "_____Product_MediaType" /* MediaType.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_POSIX" /* POSIX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_POSIX" /* Build configuration list for PBXNativeTarget "POSIX" */;
+			buildPhases = (
+				CompilePhase_POSIX /* Sources */,
+				"___LinkPhase_POSIX" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POSIX;
+			productName = POSIX;
+			productReference = "_____Product_POSIX" /* POSIX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_POSIXRegex" /* POSIXRegex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_POSIXRegex" /* Build configuration list for PBXNativeTarget "POSIXRegex" */;
+			buildPhases = (
+				CompilePhase_POSIXRegex /* Sources */,
+				"___LinkPhase_POSIXRegex" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+			);
+			name = POSIXRegex;
+			productName = POSIXRegex;
+			productReference = "_____Product_POSIXRegex" /* POSIXRegex.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_PathParameterMiddleware" /* PathParameterMiddleware */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_PathParameterMiddleware" /* Build configuration list for PBXNativeTarget "PathParameterMiddleware" */;
+			buildPhases = (
+				CompilePhase_PathParameterMiddleware /* Sources */,
+				"___LinkPhase_PathParameterMiddleware" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_CURIParser /* PBXTargetDependency */,
+				__Dependency_StructuredData /* PBXTargetDependency */,
+				__Dependency_String /* PBXTargetDependency */,
+				__Dependency_S4 /* PBXTargetDependency */,
+				__Dependency_URI /* PBXTargetDependency */,
+				__Dependency_MediaType /* PBXTargetDependency */,
+				__Dependency_HTTP /* PBXTargetDependency */,
+			);
+			name = PathParameterMiddleware;
+			productName = PathParameterMiddleware;
+			productReference = "_____Product_PathParameterMiddleware" /* PathParameterMiddleware.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_RegexRouteMatcher" /* RegexRouteMatcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_RegexRouteMatcher" /* Build configuration list for PBXNativeTarget "RegexRouteMatcher" */;
+			buildPhases = (
+				CompilePhase_RegexRouteMatcher /* Sources */,
+				"___LinkPhase_RegexRouteMatcher" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_CURIParser /* PBXTargetDependency */,
+				__Dependency_StructuredData /* PBXTargetDependency */,
+				__Dependency_String /* PBXTargetDependency */,
+				__Dependency_S4 /* PBXTargetDependency */,
+				__Dependency_URI /* PBXTargetDependency */,
+				__Dependency_MediaType /* PBXTargetDependency */,
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_PathParameterMiddleware /* PBXTargetDependency */,
+				__Dependency_HTTP /* PBXTargetDependency */,
+				__Dependency_POSIXRegex /* PBXTargetDependency */,
+			);
+			name = RegexRouteMatcher;
+			productName = RegexRouteMatcher;
+			productReference = "_____Product_RegexRouteMatcher" /* RegexRouteMatcher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_Router" /* Router */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_Router" /* Build configuration list for PBXNativeTarget "Router" */;
+			buildPhases = (
+				CompilePhase_Router /* Sources */,
+				"___LinkPhase_Router" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_CURIParser /* PBXTargetDependency */,
+				__Dependency_StructuredData /* PBXTargetDependency */,
+				__Dependency_String /* PBXTargetDependency */,
+				__Dependency_S4 /* PBXTargetDependency */,
+				__Dependency_URI /* PBXTargetDependency */,
+				__Dependency_MediaType /* PBXTargetDependency */,
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_PathParameterMiddleware /* PBXTargetDependency */,
+				__Dependency_HTTP /* PBXTargetDependency */,
+				__Dependency_POSIXRegex /* PBXTargetDependency */,
+				__Dependency_TrieRouteMatcher /* PBXTargetDependency */,
+				__Dependency_RegexRouteMatcher /* PBXTargetDependency */,
+			);
+			name = Router;
+			productName = Router;
+			productReference = "_____Product_Router" /* Router.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_S4" /* S4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_S4" /* Build configuration list for PBXNativeTarget "S4" */;
+			buildPhases = (
+				CompilePhase_S4 /* Sources */,
+				"___LinkPhase_S4" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+			);
+			name = S4;
+			productName = S4;
+			productReference = "_____Product_S4" /* S4.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_String" /* String */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_String" /* Build configuration list for PBXNativeTarget "String" */;
+			buildPhases = (
+				CompilePhase_String /* Sources */,
+				"___LinkPhase_String" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = String;
+			productName = String;
+			productReference = "_____Product_String" /* String.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_StructuredData" /* StructuredData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_StructuredData" /* Build configuration list for PBXNativeTarget "StructuredData" */;
+			buildPhases = (
+				CompilePhase_StructuredData /* Sources */,
+				"___LinkPhase_StructuredData" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+			);
+			name = StructuredData;
+			productName = StructuredData;
+			productReference = "_____Product_StructuredData" /* StructuredData.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_TCP" /* TCP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_TCP" /* Build configuration list for PBXNativeTarget "TCP" */;
+			buildPhases = (
+				CompilePhase_TCP /* Sources */,
+				"___LinkPhase_TCP" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_CLibvenice /* PBXTargetDependency */,
+				__Dependency_POSIX /* PBXTargetDependency */,
+				__Dependency_Venice /* PBXTargetDependency */,
+				__Dependency_IP /* PBXTargetDependency */,
+			);
+			name = TCP;
+			productName = TCP;
+			productReference = "_____Product_TCP" /* TCP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_TrieRouteMatcher" /* TrieRouteMatcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_TrieRouteMatcher" /* Build configuration list for PBXNativeTarget "TrieRouteMatcher" */;
+			buildPhases = (
+				CompilePhase_TrieRouteMatcher /* Sources */,
+				"___LinkPhase_TrieRouteMatcher" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_CURIParser /* PBXTargetDependency */,
+				__Dependency_StructuredData /* PBXTargetDependency */,
+				__Dependency_String /* PBXTargetDependency */,
+				__Dependency_S4 /* PBXTargetDependency */,
+				__Dependency_URI /* PBXTargetDependency */,
+				__Dependency_MediaType /* PBXTargetDependency */,
+				__Dependency_PathParameterMiddleware /* PBXTargetDependency */,
+				__Dependency_HTTP /* PBXTargetDependency */,
+			);
+			name = TrieRouteMatcher;
+			productName = TrieRouteMatcher;
+			productReference = "_____Product_TrieRouteMatcher" /* TrieRouteMatcher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_URI" /* URI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_URI" /* Build configuration list for PBXNativeTarget "URI" */;
+			buildPhases = (
+				CompilePhase_URI /* Sources */,
+				"___LinkPhase_URI" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_CURIParser /* PBXTargetDependency */,
+				__Dependency_String /* PBXTargetDependency */,
+			);
+			name = URI;
+			productName = URI;
+			productReference = "_____Product_URI" /* URI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_Venice" /* Venice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_Venice" /* Build configuration list for PBXNativeTarget "Venice" */;
+			buildPhases = (
+				CompilePhase_Venice /* Sources */,
+				"___LinkPhase_Venice" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_CLibvenice /* PBXTargetDependency */,
+			);
+			name = Venice;
+			productName = Venice;
+			productReference = "_____Product_Venice" /* Venice.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_ZewoSrv" /* ZewoSrv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_ZewoSrv" /* Build configuration list for PBXNativeTarget "ZewoSrv" */;
+			buildPhases = (
+				CompilePhase_ZewoSrv /* Sources */,
+				"___LinkPhase_ZewoSrv" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_StructuredData /* PBXTargetDependency */,
+				__Dependency_CLibvenice /* PBXTargetDependency */,
+				__Dependency_MediaType /* PBXTargetDependency */,
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_CURIParser /* PBXTargetDependency */,
+				__Dependency_String /* PBXTargetDependency */,
+				__Dependency_POSIX /* PBXTargetDependency */,
+				__Dependency_Venice /* PBXTargetDependency */,
+				__Dependency_PathParameterMiddleware /* PBXTargetDependency */,
+				__Dependency_HTTP /* PBXTargetDependency */,
+				__Dependency_POSIXRegex /* PBXTargetDependency */,
+				__Dependency_S4 /* PBXTargetDependency */,
+				__Dependency_URI /* PBXTargetDependency */,
+				__Dependency_CHTTPParser /* PBXTargetDependency */,
+				__Dependency_IP /* PBXTargetDependency */,
+				__Dependency_TrieRouteMatcher /* PBXTargetDependency */,
+				__Dependency_RegexRouteMatcher /* PBXTargetDependency */,
+				__Dependency_HTTPSerializer /* PBXTargetDependency */,
+				__Dependency_HTTPParser /* PBXTargetDependency */,
+				__Dependency_TCP /* PBXTargetDependency */,
+				__Dependency_Router /* PBXTargetDependency */,
+				__Dependency_HTTPServer /* PBXTargetDependency */,
+			);
+			name = ZewoSrv;
+			productName = ZewoSrv;
+			productReference = "_____Product_ZewoSrv" /* ZewoSrv */;
+			productType = "com.apple.product-type.tool";
+		};
+		"______Target_ZewoSrvTestSuite" /* ZewoSrvTestSuite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_ZewoSrvTestSuite" /* Build configuration list for PBXNativeTarget "ZewoSrvTestSuite" */;
+			buildPhases = (
+				CompilePhase_ZewoSrvTestSuite /* Sources */,
+				"___LinkPhase_ZewoSrvTestSuite" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_StructuredData /* PBXTargetDependency */,
+				__Dependency_CLibvenice /* PBXTargetDependency */,
+				__Dependency_MediaType /* PBXTargetDependency */,
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_CURIParser /* PBXTargetDependency */,
+				__Dependency_String /* PBXTargetDependency */,
+				__Dependency_POSIX /* PBXTargetDependency */,
+				__Dependency_Venice /* PBXTargetDependency */,
+				__Dependency_PathParameterMiddleware /* PBXTargetDependency */,
+				__Dependency_HTTP /* PBXTargetDependency */,
+				__Dependency_POSIXRegex /* PBXTargetDependency */,
+				__Dependency_S4 /* PBXTargetDependency */,
+				__Dependency_URI /* PBXTargetDependency */,
+				__Dependency_CHTTPParser /* PBXTargetDependency */,
+				__Dependency_IP /* PBXTargetDependency */,
+				__Dependency_TrieRouteMatcher /* PBXTargetDependency */,
+				__Dependency_RegexRouteMatcher /* PBXTargetDependency */,
+				__Dependency_HTTPSerializer /* PBXTargetDependency */,
+				__Dependency_HTTPParser /* PBXTargetDependency */,
+				__Dependency_TCP /* PBXTargetDependency */,
+				__Dependency_Router /* PBXTargetDependency */,
+				__Dependency_HTTPServer /* PBXTargetDependency */,
+				__Dependency_ZewoSrv /* PBXTargetDependency */,
+			);
+			name = ZewoSrvTestSuite;
+			productName = ZewoSrvTestSuite;
+			productReference = "_____Product_ZewoSrvTestSuite" /* ZewoSrvTestSuite.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		__RootObject_ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "ZewoSrv" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = "___RootGroup_";
+			productRefGroup = "____Products_" /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"______Target_CLibvenice" /* CLibvenice */,
+				"______Target_C7" /* C7 */,
+				"______Target_Venice" /* Venice */,
+				"______Target_POSIX" /* POSIX */,
+				"______Target_IP" /* IP */,
+				"______Target_TCP" /* TCP */,
+				"______Target_CHTTPParser" /* CHTTPParser */,
+				"______Target_String" /* String */,
+				"______Target_CURIParser" /* CURIParser */,
+				"______Target_URI" /* URI */,
+				"______Target_S4" /* S4 */,
+				"______Target_HTTPParser" /* HTTPParser */,
+				"______Target_HTTPSerializer" /* HTTPSerializer */,
+				"______Target_HTTPServer" /* HTTPServer */,
+				"______Target_POSIXRegex" /* POSIXRegex */,
+				"______Target_StructuredData" /* StructuredData */,
+				"______Target_MediaType" /* MediaType */,
+				"______Target_HTTP" /* HTTP */,
+				"______Target_PathParameterMiddleware" /* PathParameterMiddleware */,
+				"______Target_RegexRouteMatcher" /* RegexRouteMatcher */,
+				"______Target_TrieRouteMatcher" /* TrieRouteMatcher */,
+				"______Target_Router" /* Router */,
+				"______Target_ZewoSrv" /* ZewoSrv */,
+				"______Target_ZewoSrvTestSuite" /* ZewoSrvTestSuite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CompilePhase_C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/C7-0.8.1/Sources/AsyncConnection.swift" /* AsyncConnection.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.8.1/Sources/AsyncDrain.swift" /* AsyncDrain.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.8.1/Sources/AsyncHost.swift" /* AsyncHost.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.8.1/Sources/AsyncStream.swift" /* AsyncStream.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.8.1/Sources/AsyncURIConnection.swift" /* AsyncURIConnection.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.8.1/Sources/Byte.swift" /* Byte.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.8.1/Sources/C7.swift" /* C7.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.8.1/Sources/CaseInsensitiveString.swift" /* CaseInsensitiveString.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.8.1/Sources/Closable.swift" /* Closable.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.8.1/Sources/Connection.swift" /* Connection.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.8.1/Sources/CustomDataStore.swift" /* CustomDataStore.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.8.1/Sources/Data.swift" /* Data.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.8.1/Sources/Drain.swift" /* Drain.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.8.1/Sources/Host.swift" /* Host.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.8.1/Sources/JSON.swift" /* JSON.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.8.1/Sources/Number.swift" /* Number.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.8.1/Sources/Stream.swift" /* Stream.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.8.1/Sources/StreamError.swift" /* StreamError.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.8.1/Sources/StreamSequence.swift" /* StreamSequence.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.8.1/Sources/StructuredData.swift" /* StructuredData.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.8.1/Sources/Time.swift" /* Time.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.8.1/Sources/URI.swift" /* URI.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.8.1/Sources/URIConnection.swift" /* URIConnection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_CHTTPParser /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/CHTTPParser-0.5.0/Sources/http_parser.c" /* http_parser.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_CLibvenice /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/chan.c" /* chan.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/cr.c" /* cr.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/debug.c" /* debug.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/dns.c" /* dns.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/file.c" /* file.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/ip.c" /* ip.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/list.c" /* list.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/poller.c" /* poller.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/slist.c" /* slist.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/stack.c" /* stack.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/tcp.c" /* tcp.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/timer.c" /* timer.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/udp.c" /* udp.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/unix.c" /* unix.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_CURIParser /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/CURIParser-0.5.0/Sources/uri_parser.c" /* uri_parser.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_HTTP /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/HTTP-0.7.1/Sources/AttributedCookie.swift" /* AttributedCookie.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.7.1/Sources/Cookie.swift" /* Cookie.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.7.1/Sources/Headers.swift" /* Headers.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.7.1/Sources/HeaderValues.swift" /* HeaderValues.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.7.1/Sources/HTTP.swift" /* HTTP.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.7.1/Sources/Message.swift" /* Message.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.7.1/Sources/Request.swift" /* Request.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.7.1/Sources/Response.swift" /* Response.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.7.1/Sources/Router.swift" /* Router.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_HTTPParser /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/HTTPParser-0.7.3/Sources/Parser.swift" /* Parser.swift in Sources */,
+				"__src_cc_ref_Packages/HTTPParser-0.7.3/Sources/RequestParser.swift" /* RequestParser.swift in Sources */,
+				"__src_cc_ref_Packages/HTTPParser-0.7.3/Sources/ResponseParser.swift" /* ResponseParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_HTTPSerializer /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/HTTPSerializer-0.7.2/Sources/BodyStream.swift" /* BodyStream.swift in Sources */,
+				"__src_cc_ref_Packages/HTTPSerializer-0.7.2/Sources/RequestSerializer.swift" /* RequestSerializer.swift in Sources */,
+				"__src_cc_ref_Packages/HTTPSerializer-0.7.2/Sources/ResponseSerializer.swift" /* ResponseSerializer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_HTTPServer /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/HTTPServer-0.7.2/Source/Server.swift" /* Server.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_IP /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/IP-0.7.0/Source/IP.swift" /* IP.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_MediaType /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/MediaType-0.8.0/Source/MediaType.swift" /* MediaType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_POSIX /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/POSIX-0.5.1/Sources/POSIX.swift" /* POSIX.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_POSIXRegex /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/POSIXRegex-0.7.0/Source/Regex.swift" /* Regex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_PathParameterMiddleware /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/PathParameterMiddleware-0.7.0/Source/PathParameterMiddleware.swift" /* PathParameterMiddleware.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_RegexRouteMatcher /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/RegexRouteMatcher-0.7.0/Source/RegexRouteMatcher.swift" /* RegexRouteMatcher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_Router /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Router-0.7.1/Source/Router.swift" /* Router.swift in Sources */,
+				"__src_cc_ref_Packages/Router-0.7.1/Source/RouterBuilder.swift" /* RouterBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_S4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/S4-0.8.0/Sources/AsyncClient.swift" /* AsyncClient.swift in Sources */,
+				"__src_cc_ref_Packages/S4-0.8.0/Sources/AsyncMiddleware.swift" /* AsyncMiddleware.swift in Sources */,
+				"__src_cc_ref_Packages/S4-0.8.0/Sources/AsyncResponder.swift" /* AsyncResponder.swift in Sources */,
+				"__src_cc_ref_Packages/S4-0.8.0/Sources/AsyncServer.swift" /* AsyncServer.swift in Sources */,
+				"__src_cc_ref_Packages/S4-0.8.0/Sources/Body.swift" /* Body.swift in Sources */,
+				"__src_cc_ref_Packages/S4-0.8.0/Sources/Client.swift" /* Client.swift in Sources */,
+				"__src_cc_ref_Packages/S4-0.8.0/Sources/Error.swift" /* Error.swift in Sources */,
+				"__src_cc_ref_Packages/S4-0.8.0/Sources/Header.swift" /* Header.swift in Sources */,
+				"__src_cc_ref_Packages/S4-0.8.0/Sources/Headers.swift" /* Headers.swift in Sources */,
+				"__src_cc_ref_Packages/S4-0.8.0/Sources/Message.swift" /* Message.swift in Sources */,
+				"__src_cc_ref_Packages/S4-0.8.0/Sources/Method.swift" /* Method.swift in Sources */,
+				"__src_cc_ref_Packages/S4-0.8.0/Sources/Middleware.swift" /* Middleware.swift in Sources */,
+				"__src_cc_ref_Packages/S4-0.8.0/Sources/Request.swift" /* Request.swift in Sources */,
+				"__src_cc_ref_Packages/S4-0.8.0/Sources/RequestParser.swift" /* RequestParser.swift in Sources */,
+				"__src_cc_ref_Packages/S4-0.8.0/Sources/RequestSerializer.swift" /* RequestSerializer.swift in Sources */,
+				"__src_cc_ref_Packages/S4-0.8.0/Sources/Responder.swift" /* Responder.swift in Sources */,
+				"__src_cc_ref_Packages/S4-0.8.0/Sources/Response.swift" /* Response.swift in Sources */,
+				"__src_cc_ref_Packages/S4-0.8.0/Sources/ResponseParser.swift" /* ResponseParser.swift in Sources */,
+				"__src_cc_ref_Packages/S4-0.8.0/Sources/ResponseSerializer.swift" /* ResponseSerializer.swift in Sources */,
+				"__src_cc_ref_Packages/S4-0.8.0/Sources/S4.swift" /* S4.swift in Sources */,
+				"__src_cc_ref_Packages/S4-0.8.0/Sources/Server.swift" /* Server.swift in Sources */,
+				"__src_cc_ref_Packages/S4-0.8.0/Sources/Status.swift" /* Status.swift in Sources */,
+				"__src_cc_ref_Packages/S4-0.8.0/Sources/Version.swift" /* Version.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_String /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/String-0.7.2/Source/String.swift" /* String.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_StructuredData /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/StructuredData-0.8.3/Sources/StructuredData.swift" /* StructuredData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_TCP /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/TCP-0.7.2/Source/TCPConnection.swift" /* TCPConnection.swift in Sources */,
+				"__src_cc_ref_Packages/TCP-0.7.2/Source/TCPError.swift" /* TCPError.swift in Sources */,
+				"__src_cc_ref_Packages/TCP-0.7.2/Source/TCPServer.swift" /* TCPServer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_TrieRouteMatcher /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/TrieRouteMatcher-0.7.0/Source/Trie.swift" /* Trie.swift in Sources */,
+				"__src_cc_ref_Packages/TrieRouteMatcher-0.7.0/Source/TrieRouteMatcher.swift" /* TrieRouteMatcher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_URI /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/URI-0.8.1/Sources/URI.swift" /* URI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_Venice /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/Channel/Channel.swift" /* Channel/Channel.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/Channel/ReceivingChannel.swift" /* Channel/ReceivingChannel.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/Channel/SendingChannel.swift" /* Channel/SendingChannel.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/Coroutine/Coroutine.swift" /* Coroutine/Coroutine.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/FallibleChannel/FallibleChannel.swift" /* FallibleChannel/FallibleChannel.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/FallibleChannel/FallibleReceivingChannel.swift" /* FallibleChannel/FallibleReceivingChannel.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/FallibleChannel/FallibleSendingChannel.swift" /* FallibleChannel/FallibleSendingChannel.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/Poll/Poll.swift" /* Poll/Poll.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/Select/Select.swift" /* Select/Select.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/Ticker/Ticker.swift" /* Ticker/Ticker.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/TImer/Timer.swift" /* TImer/Timer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_ZewoSrv /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Sources/main.swift /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_ZewoSrvTestSuite /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Tests/ZewoSrv/ZewoSrvTests.swift /* ZewoSrvTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		__Dependency_C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_C7" /* C7 */;
+			targetProxy = C33A50CB1D15CC5600F58D37 /* PBXContainerItemProxy */;
+		};
+		__Dependency_CHTTPParser /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_CHTTPParser" /* CHTTPParser */;
+			targetProxy = C33A50D41D15CC5600F58D37 /* PBXContainerItemProxy */;
+		};
+		__Dependency_CLibvenice /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_CLibvenice" /* CLibvenice */;
+			targetProxy = C33A50CC1D15CC5600F58D37 /* PBXContainerItemProxy */;
+		};
+		__Dependency_CURIParser /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_CURIParser" /* CURIParser */;
+			targetProxy = C33A50D01D15CC5600F58D37 /* PBXContainerItemProxy */;
+		};
+		__Dependency_HTTP /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_HTTP" /* HTTP */;
+			targetProxy = C33A50DA1D15CC5600F58D37 /* PBXContainerItemProxy */;
+		};
+		__Dependency_HTTPParser /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_HTTPParser" /* HTTPParser */;
+			targetProxy = C33A50D61D15CC5600F58D37 /* PBXContainerItemProxy */;
+		};
+		__Dependency_HTTPSerializer /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_HTTPSerializer" /* HTTPSerializer */;
+			targetProxy = C33A50D51D15CC5600F58D37 /* PBXContainerItemProxy */;
+		};
+		__Dependency_HTTPServer /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_HTTPServer" /* HTTPServer */;
+			targetProxy = C33A50E01D15CC5600F58D37 /* PBXContainerItemProxy */;
+		};
+		__Dependency_IP /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_IP" /* IP */;
+			targetProxy = C33A50CF1D15CC5600F58D37 /* PBXContainerItemProxy */;
+		};
+		__Dependency_MediaType /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_MediaType" /* MediaType */;
+			targetProxy = C33A50D91D15CC5600F58D37 /* PBXContainerItemProxy */;
+		};
+		__Dependency_POSIX /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_POSIX" /* POSIX */;
+			targetProxy = C33A50CD1D15CC5600F58D37 /* PBXContainerItemProxy */;
+		};
+		__Dependency_POSIXRegex /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_POSIXRegex" /* POSIXRegex */;
+			targetProxy = C33A50DC1D15CC5600F58D37 /* PBXContainerItemProxy */;
+		};
+		__Dependency_PathParameterMiddleware /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_PathParameterMiddleware" /* PathParameterMiddleware */;
+			targetProxy = C33A50DB1D15CC5600F58D37 /* PBXContainerItemProxy */;
+		};
+		__Dependency_RegexRouteMatcher /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_RegexRouteMatcher" /* RegexRouteMatcher */;
+			targetProxy = C33A50DE1D15CC5600F58D37 /* PBXContainerItemProxy */;
+		};
+		__Dependency_Router /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_Router" /* Router */;
+			targetProxy = C33A50DF1D15CC5600F58D37 /* PBXContainerItemProxy */;
+		};
+		__Dependency_S4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_S4" /* S4 */;
+			targetProxy = C33A50D21D15CC5600F58D37 /* PBXContainerItemProxy */;
+		};
+		__Dependency_String /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_String" /* String */;
+			targetProxy = C33A50D11D15CC5600F58D37 /* PBXContainerItemProxy */;
+		};
+		__Dependency_StructuredData /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_StructuredData" /* StructuredData */;
+			targetProxy = C33A50D81D15CC5600F58D37 /* PBXContainerItemProxy */;
+		};
+		__Dependency_TCP /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_TCP" /* TCP */;
+			targetProxy = C33A50D71D15CC5600F58D37 /* PBXContainerItemProxy */;
+		};
+		__Dependency_TrieRouteMatcher /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_TrieRouteMatcher" /* TrieRouteMatcher */;
+			targetProxy = C33A50DD1D15CC5600F58D37 /* PBXContainerItemProxy */;
+		};
+		__Dependency_URI /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_URI" /* URI */;
+			targetProxy = C33A50D31D15CC5600F58D37 /* PBXContainerItemProxy */;
+		};
+		__Dependency_Venice /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_Venice" /* Venice */;
+			targetProxy = C33A50CE1D15CC5600F58D37 /* PBXContainerItemProxy */;
+		};
+		__Dependency_ZewoSrv /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_ZewoSrv" /* ZewoSrv */;
+			targetProxy = C33A50E11D15CC5600F58D37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		_ReleaseConf_C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/C7_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_CHTTPParser /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/CHTTPParser_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_CLibvenice /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/CLibvenice_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_CURIParser /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/CURIParser_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_HTTP /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CURIParser-0.5.0/Sources/include";
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/HTTP_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_HTTPParser /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CURIParser-0.5.0/Sources/include",
+					"/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CHTTPParser-0.5.0/Sources/include",
+				);
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/HTTPParser_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_HTTPSerializer /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CURIParser-0.5.0/Sources/include";
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/HTTPSerializer_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_HTTPServer /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CLibvenice-0.5.1/Sources/include",
+					"/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CURIParser-0.5.0/Sources/include",
+					"/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CHTTPParser-0.5.0/Sources/include",
+				);
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/HTTPServer_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_IP /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CLibvenice-0.5.1/Sources/include";
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/IP_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_MediaType /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/MediaType_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_POSIX /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/POSIX_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_POSIXRegex /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/POSIXRegex_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_PathParameterMiddleware /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CURIParser-0.5.0/Sources/include";
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/PathParameterMiddleware_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_RegexRouteMatcher /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CURIParser-0.5.0/Sources/include";
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/RegexRouteMatcher_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_Router /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CURIParser-0.5.0/Sources/include";
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/Router_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_S4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/S4_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_String /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/String_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_StructuredData /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/StructuredData_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_TCP /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CLibvenice-0.5.1/Sources/include";
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/TCP_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_TrieRouteMatcher /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CURIParser-0.5.0/Sources/include";
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/TrieRouteMatcher_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_URI /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CURIParser-0.5.0/Sources/include";
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/URI_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_Venice /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CLibvenice-0.5.1/Sources/include";
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/Venice_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_ZewoSrv /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CLibvenice-0.5.1/Sources/include",
+					"/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CURIParser-0.5.0/Sources/include",
+					"/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CHTTPParser-0.5.0/Sources/include",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+			};
+			name = Release;
+		};
+		_ReleaseConf_ZewoSrvTestSuite /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CLibvenice-0.5.1/Sources/include",
+					"/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CURIParser-0.5.0/Sources/include",
+					"/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CHTTPParser-0.5.0/Sources/include",
+				);
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/ZewoSrvTestSuite_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		"___DebugConf_C7" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/C7_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_CHTTPParser" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/CHTTPParser_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_CLibvenice" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/CLibvenice_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_CURIParser" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/CURIParser_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_HTTP" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CURIParser-0.5.0/Sources/include";
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/HTTP_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_HTTPParser" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CURIParser-0.5.0/Sources/include",
+					"/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CHTTPParser-0.5.0/Sources/include",
+				);
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/HTTPParser_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_HTTPSerializer" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CURIParser-0.5.0/Sources/include";
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/HTTPSerializer_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_HTTPServer" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CLibvenice-0.5.1/Sources/include",
+					"/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CURIParser-0.5.0/Sources/include",
+					"/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CHTTPParser-0.5.0/Sources/include",
+				);
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/HTTPServer_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_IP" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CLibvenice-0.5.1/Sources/include";
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/IP_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_MediaType" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/MediaType_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_POSIX" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/POSIX_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_POSIXRegex" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/POSIXRegex_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_PathParameterMiddleware" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CURIParser-0.5.0/Sources/include";
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/PathParameterMiddleware_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_RegexRouteMatcher" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CURIParser-0.5.0/Sources/include";
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/RegexRouteMatcher_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_Router" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CURIParser-0.5.0/Sources/include";
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/Router_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_S4" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/S4_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_String" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/String_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_StructuredData" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/StructuredData_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_TCP" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CLibvenice-0.5.1/Sources/include";
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/TCP_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_TrieRouteMatcher" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CURIParser-0.5.0/Sources/include";
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/TrieRouteMatcher_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_URI" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CURIParser-0.5.0/Sources/include";
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/URI_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_Venice" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CLibvenice-0.5.1/Sources/include";
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/Venice_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_ZewoSrv" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CLibvenice-0.5.1/Sources/include",
+					"/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CURIParser-0.5.0/Sources/include",
+					"/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CHTTPParser-0.5.0/Sources/include",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_ZewoSrvTestSuite" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CLibvenice-0.5.1/Sources/include",
+					"/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CURIParser-0.5.0/Sources/include",
+					"/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CHTTPParser-0.5.0/Sources/include",
+				);
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/ZewoSrvTestSuite_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"_____Release_" /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_ZewoSrv.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		"_______Debug_" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_ZewoSrv.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		"___RootConfs_" /* Build configuration list for PBXProject "ZewoSrv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"_______Debug_" /* Debug */,
+				"_____Release_" /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_C7" /* Build configuration list for PBXNativeTarget "C7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_C7" /* Debug */,
+				_ReleaseConf_C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_CHTTPParser" /* Build configuration list for PBXNativeTarget "CHTTPParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_CHTTPParser" /* Debug */,
+				_ReleaseConf_CHTTPParser /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_CLibvenice" /* Build configuration list for PBXNativeTarget "CLibvenice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_CLibvenice" /* Debug */,
+				_ReleaseConf_CLibvenice /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_CURIParser" /* Build configuration list for PBXNativeTarget "CURIParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_CURIParser" /* Debug */,
+				_ReleaseConf_CURIParser /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_HTTP" /* Build configuration list for PBXNativeTarget "HTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_HTTP" /* Debug */,
+				_ReleaseConf_HTTP /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_HTTPParser" /* Build configuration list for PBXNativeTarget "HTTPParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_HTTPParser" /* Debug */,
+				_ReleaseConf_HTTPParser /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_HTTPSerializer" /* Build configuration list for PBXNativeTarget "HTTPSerializer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_HTTPSerializer" /* Debug */,
+				_ReleaseConf_HTTPSerializer /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_HTTPServer" /* Build configuration list for PBXNativeTarget "HTTPServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_HTTPServer" /* Debug */,
+				_ReleaseConf_HTTPServer /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_IP" /* Build configuration list for PBXNativeTarget "IP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_IP" /* Debug */,
+				_ReleaseConf_IP /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_MediaType" /* Build configuration list for PBXNativeTarget "MediaType" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_MediaType" /* Debug */,
+				_ReleaseConf_MediaType /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_POSIX" /* Build configuration list for PBXNativeTarget "POSIX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_POSIX" /* Debug */,
+				_ReleaseConf_POSIX /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_POSIXRegex" /* Build configuration list for PBXNativeTarget "POSIXRegex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_POSIXRegex" /* Debug */,
+				_ReleaseConf_POSIXRegex /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_PathParameterMiddleware" /* Build configuration list for PBXNativeTarget "PathParameterMiddleware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_PathParameterMiddleware" /* Debug */,
+				_ReleaseConf_PathParameterMiddleware /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_RegexRouteMatcher" /* Build configuration list for PBXNativeTarget "RegexRouteMatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_RegexRouteMatcher" /* Debug */,
+				_ReleaseConf_RegexRouteMatcher /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_Router" /* Build configuration list for PBXNativeTarget "Router" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_Router" /* Debug */,
+				_ReleaseConf_Router /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_S4" /* Build configuration list for PBXNativeTarget "S4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_S4" /* Debug */,
+				_ReleaseConf_S4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_String" /* Build configuration list for PBXNativeTarget "String" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_String" /* Debug */,
+				_ReleaseConf_String /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_StructuredData" /* Build configuration list for PBXNativeTarget "StructuredData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_StructuredData" /* Debug */,
+				_ReleaseConf_StructuredData /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_TCP" /* Build configuration list for PBXNativeTarget "TCP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_TCP" /* Debug */,
+				_ReleaseConf_TCP /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_TrieRouteMatcher" /* Build configuration list for PBXNativeTarget "TrieRouteMatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_TrieRouteMatcher" /* Debug */,
+				_ReleaseConf_TrieRouteMatcher /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_URI" /* Build configuration list for PBXNativeTarget "URI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_URI" /* Debug */,
+				_ReleaseConf_URI /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_Venice" /* Build configuration list for PBXNativeTarget "Venice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_Venice" /* Debug */,
+				_ReleaseConf_Venice /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_ZewoSrv" /* Build configuration list for PBXNativeTarget "ZewoSrv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_ZewoSrv" /* Debug */,
+				_ReleaseConf_ZewoSrv /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_ZewoSrvTestSuite" /* Build configuration list for PBXNativeTarget "ZewoSrvTestSuite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_ZewoSrvTestSuite" /* Debug */,
+				_ReleaseConf_ZewoSrvTestSuite /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = __RootObject_ /* Project object */;
+}
