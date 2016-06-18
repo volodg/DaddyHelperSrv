@@ -14,3 +14,6 @@ source ~/.bashrc
 git clone https://github.com/volodg/DaddyHelperSrv.git
 cd ./DaddyHelperSrv/ZewoSrv/
 ./build_linux.sh 
+
+Configure PG:
+http://www.tunnelsup.com/setting-up-postgres-on-mac-osx
