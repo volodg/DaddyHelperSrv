@@ -6,7 +6,11 @@ bash -c "clear && DOCKER_HOST=tcp://192.168.99.100:2376 DOCKER_CERT_PATH=/Users/
 3. mv swift-3.0-preview-1-ubuntu15.10 swift
 
 apt-get update
-apt-get install clang libicu-dev binutils git
+apt-get install clang libicu-dev binutils git libpq-dev postgresql
 
 echo "export PATH=/root/swift/usr/bin:\"\${PATH}\"" >> ~/.bashrc
 source ~/.bashrc
+
+git clone https://github.com/volodg/DaddyHelperSrv.git
+cd ./DaddyHelperSrv/ZewoSrv/
+./build_linux.sh 

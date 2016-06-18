@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C33A50FD1D15D58700F58D37 /* dbTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33A50FC1D15D58700F58D37 /* dbTools.swift */; };
+		C33A50FF1D15D5C900F58D37 /* dbMigrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33A50FE1D15D5C900F58D37 /* dbMigrations.swift */; };
 		_LinkFileRef_C7_via_HTTP /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
 		_LinkFileRef_C7_via_HTTPParser /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
 		_LinkFileRef_C7_via_HTTPSerializer /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
@@ -477,6 +479,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C33A50FC1D15D58700F58D37 /* dbTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dbTools.swift; sourceTree = "<group>"; };
+		C33A50FE1D15D5C900F58D37 /* dbMigrations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dbMigrations.swift; sourceTree = "<group>"; };
 		__PBXFileRef_C7_Info.plist /* C7_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = C7_Info.plist; path = ZewoSrv.xcodeproj/C7_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_CHTTPParser_Info.plist /* CHTTPParser_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CHTTPParser_Info.plist; path = ZewoSrv.xcodeproj/CHTTPParser_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_CLibvenice_Info.plist /* CLibvenice_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CLibvenice_Info.plist; path = ZewoSrv.xcodeproj/CLibvenice_Info.plist; sourceTree = SOURCE_ROOT; };
@@ -1467,6 +1471,8 @@
 			isa = PBXGroup;
 			children = (
 				__PBXFileRef_Sources/main.swift /* main.swift */,
+				C33A50FC1D15D58700F58D37 /* dbTools.swift */,
+				C33A50FE1D15D5C900F58D37 /* dbMigrations.swift */,
 			);
 			name = ZewoSrv;
 			path = Sources;
@@ -2437,6 +2443,8 @@
 			buildActionMask = 0;
 			files = (
 				__src_cc_ref_Sources/main.swift /* main.swift in Sources */,
+				C33A50FF1D15D5C900F58D37 /* dbMigrations.swift in Sources */,
+				C33A50FD1D15D58700F58D37 /* dbTools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
