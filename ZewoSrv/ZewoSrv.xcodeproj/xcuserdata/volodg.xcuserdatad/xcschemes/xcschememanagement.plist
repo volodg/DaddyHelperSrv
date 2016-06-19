@@ -62,6 +62,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>______Target_JSON</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>______Target_Log</key>
 		<dict>
 			<key>primary</key>

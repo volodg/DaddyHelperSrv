@@ -9,6 +9,7 @@
 import struct HTTPServer.Server
 import Router
 import Foundation
+import JSON
 
 try migrateAll()
 

@@ -7,16 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C33A50FD1D15D58700F58D37 /* dbTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33A50FC1D15D58700F58D37 /* dbTools.swift */; };
-		C33A50FF1D15D5C900F58D37 /* dbMigrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33A50FE1D15D5C900F58D37 /* dbMigrations.swift */; };
-		C34A3FE21D16E8A000642553 /* LinuxSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A3FE11D16E8A000642553 /* LinuxSupport.swift */; };
-		C34A3FE41D16EB2E00642553 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A3FE31D16EB2E00642553 /* Models.swift */; };
-		C34A3FE61D16F43400642553 /* DateFormatter+Srv.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A3FE51D16F43400642553 /* DateFormatter+Srv.swift */; };
 		_LinkFileRef_C7_via_HTTP /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
 		_LinkFileRef_C7_via_HTTPParser /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
 		_LinkFileRef_C7_via_HTTPSerializer /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
 		_LinkFileRef_C7_via_HTTPServer /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
 		_LinkFileRef_C7_via_IP /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
+		_LinkFileRef_C7_via_JSON /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
 		_LinkFileRef_C7_via_Log /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
 		_LinkFileRef_C7_via_MediaType /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
 		_LinkFileRef_C7_via_POSIXRegex /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
@@ -74,6 +70,8 @@
 		_LinkFileRef_IP_via_TCP /* IP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_IP" /* IP.framework */; };
 		_LinkFileRef_IP_via_ZewoSrv /* IP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_IP" /* IP.framework */; };
 		_LinkFileRef_IP_via_ZewoSrvTestSuite /* IP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_IP" /* IP.framework */; };
+		_LinkFileRef_JSON_via_ZewoSrv /* JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_JSON" /* JSON.framework */; };
+		_LinkFileRef_JSON_via_ZewoSrvTestSuite /* JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_JSON" /* JSON.framework */; };
 		_LinkFileRef_Log_via_PostgreSQL /* Log.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Log" /* Log.framework */; };
 		_LinkFileRef_Log_via_SQL /* Log.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Log" /* Log.framework */; };
 		_LinkFileRef_Log_via_ZewoSrv /* Log.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Log" /* Log.framework */; };
@@ -134,6 +132,7 @@
 		_LinkFileRef_String_via_ZewoSrv /* String.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* String.framework */; };
 		_LinkFileRef_String_via_ZewoSrvTestSuite /* String.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* String.framework */; };
 		_LinkFileRef_StructuredData_via_HTTP /* StructuredData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* StructuredData.framework */; };
+		_LinkFileRef_StructuredData_via_JSON /* StructuredData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* StructuredData.framework */; };
 		_LinkFileRef_StructuredData_via_MediaType /* StructuredData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* StructuredData.framework */; };
 		_LinkFileRef_StructuredData_via_PathParameterMiddleware /* StructuredData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* StructuredData.framework */; };
 		_LinkFileRef_StructuredData_via_RegexRouteMatcher /* StructuredData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* StructuredData.framework */; };
@@ -221,6 +220,11 @@
 		"__src_cc_ref_Packages/HTTPSerializer-0.7.2/Sources/ResponseSerializer.swift" /* ResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTPSerializer-0.7.2/Sources/ResponseSerializer.swift" /* ResponseSerializer.swift */; };
 		"__src_cc_ref_Packages/HTTPServer-0.7.2/Source/Server.swift" /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTPServer-0.7.2/Source/Server.swift" /* Server.swift */; };
 		"__src_cc_ref_Packages/IP-0.7.0/Source/IP.swift" /* IP.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/IP-0.7.0/Source/IP.swift" /* IP.swift */; };
+		"__src_cc_ref_Packages/JSON-0.9.0/Source/JSON.swift" /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/JSON-0.9.0/Source/JSON.swift" /* JSON.swift */; };
+		"__src_cc_ref_Packages/JSON-0.9.0/Source/JSONParser.swift" /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/JSON-0.9.0/Source/JSONParser.swift" /* JSONParser.swift */; };
+		"__src_cc_ref_Packages/JSON-0.9.0/Source/JSONSerializer.swift" /* JSONSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/JSON-0.9.0/Source/JSONSerializer.swift" /* JSONSerializer.swift */; };
+		"__src_cc_ref_Packages/JSON-0.9.0/Source/JSONStructuredDataParser.swift" /* JSONStructuredDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/JSON-0.9.0/Source/JSONStructuredDataParser.swift" /* JSONStructuredDataParser.swift */; };
+		"__src_cc_ref_Packages/JSON-0.9.0/Source/JSONStructuredDataSerializer.swift" /* JSONStructuredDataSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/JSON-0.9.0/Source/JSONStructuredDataSerializer.swift" /* JSONStructuredDataSerializer.swift */; };
 		"__src_cc_ref_Packages/Log-0.8.2/Source/Appender.swift" /* Appender.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Log-0.8.2/Source/Appender.swift" /* Appender.swift */; };
 		"__src_cc_ref_Packages/Log-0.8.2/Source/LocationInfo.swift" /* LocationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Log-0.8.2/Source/LocationInfo.swift" /* LocationInfo.swift */; };
 		"__src_cc_ref_Packages/Log-0.8.2/Source/Log.swift" /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Log-0.8.2/Source/Log.swift" /* Log.swift */; };
@@ -292,187 +296,199 @@
 		"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/Select/Select.swift" /* Select/Select.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/Select/Select.swift" /* Select/Select.swift */; };
 		"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/TImer/Timer.swift" /* TImer/Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/TImer/Timer.swift" /* TImer/Timer.swift */; };
 		"__src_cc_ref_Packages/Venice-0.7.2/Source/Venice/Ticker/Ticker.swift" /* Ticker/Ticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.7.2/Source/Venice/Ticker/Ticker.swift" /* Ticker/Ticker.swift */; };
+		"__src_cc_ref_Sources/DateFormatter+Srv.swift" /* DateFormatter+Srv.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Sources/DateFormatter+Srv.swift" /* DateFormatter+Srv.swift */; };
+		__src_cc_ref_Sources/LinuxSupport.swift /* LinuxSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/LinuxSupport.swift /* LinuxSupport.swift */; };
+		__src_cc_ref_Sources/Models.swift /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Models.swift /* Models.swift */; };
+		__src_cc_ref_Sources/dbMigrations.swift /* dbMigrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/dbMigrations.swift /* dbMigrations.swift */; };
+		__src_cc_ref_Sources/dbTools.swift /* dbTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/dbTools.swift /* dbTools.swift */; };
 		__src_cc_ref_Sources/main.swift /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/main.swift /* main.swift */; };
 		__src_cc_ref_Tests/ZewoSrv/ZewoSrvTests.swift /* ZewoSrvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Tests/ZewoSrv/ZewoSrvTests.swift /* ZewoSrvTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C33A50E21D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FE71D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_C7";
 			remoteInfo = C7;
 		};
-		C33A50E31D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FE81D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_CLibvenice";
 			remoteInfo = CLibvenice;
 		};
-		C33A50E41D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FE91D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_POSIX";
 			remoteInfo = POSIX;
 		};
-		C33A50E51D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FEA1D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Venice";
 			remoteInfo = Venice;
 		};
-		C33A50E61D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FEB1D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_IP";
 			remoteInfo = IP;
 		};
-		C33A50E71D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FEC1D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_CURIParser";
 			remoteInfo = CURIParser;
 		};
-		C33A50E81D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FED1D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_String";
 			remoteInfo = String;
 		};
-		C33A50E91D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FEE1D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_S4";
 			remoteInfo = S4;
 		};
-		C33A50EA1D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FEF1D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_URI";
 			remoteInfo = URI;
 		};
-		C33A50EB1D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FF01D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_CHTTPParser";
 			remoteInfo = CHTTPParser;
 		};
-		C33A50EC1D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FF11D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_HTTPSerializer";
 			remoteInfo = HTTPSerializer;
 		};
-		C33A50ED1D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FF21D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_HTTPParser";
 			remoteInfo = HTTPParser;
 		};
-		C33A50EE1D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FF31D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_TCP";
 			remoteInfo = TCP;
 		};
-		C33A50EF1D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FF41D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_StructuredData";
 			remoteInfo = StructuredData;
 		};
-		C33A50F01D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FF51D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_MediaType";
 			remoteInfo = MediaType;
 		};
-		C33A50F11D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FF61D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_HTTP";
 			remoteInfo = HTTP;
 		};
-		C33A50F21D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FF71D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_PathParameterMiddleware";
 			remoteInfo = PathParameterMiddleware;
 		};
-		C33A50F31D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FF81D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_POSIXRegex";
 			remoteInfo = POSIXRegex;
 		};
-		C33A50F41D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FF91D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_TrieRouteMatcher";
 			remoteInfo = TrieRouteMatcher;
 		};
-		C33A50F51D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FFA1D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_RegexRouteMatcher";
 			remoteInfo = RegexRouteMatcher;
 		};
-		C33A50F61D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FFB1D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Log";
 			remoteInfo = Log;
 		};
-		C33A50F71D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FFC1D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_SQL";
 			remoteInfo = SQL;
 		};
-		C33A50F81D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FFD1D16FA6E00642553 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_JSON";
+			remoteInfo = JSON;
+		};
+		C34A3FFE1D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_PostgreSQL";
 			remoteInfo = PostgreSQL;
 		};
-		C33A50F91D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A3FFF1D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Router";
 			remoteInfo = Router;
 		};
-		C33A50FA1D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A40001D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_HTTPServer";
 			remoteInfo = HTTPServer;
 		};
-		C33A50FB1D15CFCC00F58D37 /* PBXContainerItemProxy */ = {
+		C34A40011D16FA6E00642553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
@@ -482,11 +498,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C33A50FC1D15D58700F58D37 /* dbTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dbTools.swift; sourceTree = "<group>"; };
-		C33A50FE1D15D5C900F58D37 /* dbMigrations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dbMigrations.swift; sourceTree = "<group>"; };
-		C34A3FE11D16E8A000642553 /* LinuxSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinuxSupport.swift; sourceTree = "<group>"; };
-		C34A3FE31D16EB2E00642553 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		C34A3FE51D16F43400642553 /* DateFormatter+Srv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Srv.swift"; sourceTree = "<group>"; };
 		__PBXFileRef_C7_Info.plist /* C7_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = C7_Info.plist; path = ZewoSrv.xcodeproj/C7_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_CHTTPParser_Info.plist /* CHTTPParser_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CHTTPParser_Info.plist; path = ZewoSrv.xcodeproj/CHTTPParser_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_CLibvenice_Info.plist /* CLibvenice_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CLibvenice_Info.plist; path = ZewoSrv.xcodeproj/CLibvenice_Info.plist; sourceTree = SOURCE_ROOT; };
@@ -496,6 +507,7 @@
 		__PBXFileRef_HTTPServer_Info.plist /* HTTPServer_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = HTTPServer_Info.plist; path = ZewoSrv.xcodeproj/HTTPServer_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_HTTP_Info.plist /* HTTP_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = HTTP_Info.plist; path = ZewoSrv.xcodeproj/HTTP_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_IP_Info.plist /* IP_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = IP_Info.plist; path = ZewoSrv.xcodeproj/IP_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_JSON_Info.plist /* JSON_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = JSON_Info.plist; path = ZewoSrv.xcodeproj/JSON_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_Log_Info.plist /* Log_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Log_Info.plist; path = ZewoSrv.xcodeproj/Log_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_MediaType_Info.plist /* MediaType_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MediaType_Info.plist; path = ZewoSrv.xcodeproj/MediaType_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_POSIXRegex_Info.plist /* POSIXRegex_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = POSIXRegex_Info.plist; path = ZewoSrv.xcodeproj/POSIXRegex_Info.plist; sourceTree = SOURCE_ROOT; };
@@ -557,6 +569,11 @@
 		"__PBXFileRef_Packages/HTTPSerializer-0.7.2/Sources/ResponseSerializer.swift" /* ResponseSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseSerializer.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/HTTPServer-0.7.2/Source/Server.swift" /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/IP-0.7.0/Source/IP.swift" /* IP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IP.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/JSON-0.9.0/Source/JSON.swift" /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/JSON-0.9.0/Source/JSONParser.swift" /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/JSON-0.9.0/Source/JSONSerializer.swift" /* JSONSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONSerializer.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/JSON-0.9.0/Source/JSONStructuredDataParser.swift" /* JSONStructuredDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONStructuredDataParser.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/JSON-0.9.0/Source/JSONStructuredDataSerializer.swift" /* JSONStructuredDataSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONStructuredDataSerializer.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/Log-0.8.2/Source/Appender.swift" /* Appender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appender.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/Log-0.8.2/Source/LocationInfo.swift" /* LocationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfo.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/Log-0.8.2/Source/Log.swift" /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
@@ -634,6 +651,11 @@
 		__PBXFileRef_Router_Info.plist /* Router_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Router_Info.plist; path = ZewoSrv.xcodeproj/Router_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_S4_Info.plist /* S4_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = S4_Info.plist; path = ZewoSrv.xcodeproj/S4_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_SQL_Info.plist /* SQL_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = SQL_Info.plist; path = ZewoSrv.xcodeproj/SQL_Info.plist; sourceTree = SOURCE_ROOT; };
+		"__PBXFileRef_Sources/DateFormatter+Srv.swift" /* DateFormatter+Srv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Srv.swift"; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/LinuxSupport.swift /* LinuxSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxSupport.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/Models.swift /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/dbMigrations.swift /* dbMigrations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dbMigrations.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/dbTools.swift /* dbTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dbTools.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/main.swift /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		__PBXFileRef_String_Info.plist /* String_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = String_Info.plist; path = ZewoSrv.xcodeproj/String_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_StructuredData_Info.plist /* StructuredData_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = StructuredData_Info.plist; path = ZewoSrv.xcodeproj/StructuredData_Info.plist; sourceTree = SOURCE_ROOT; };
@@ -653,6 +675,7 @@
 		"_____Product_HTTPSerializer" /* HTTPSerializer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HTTPSerializer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_HTTPServer" /* HTTPServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HTTPServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_IP" /* IP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_JSON" /* JSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Log" /* Log.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Log.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_MediaType" /* MediaType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MediaType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_POSIX" /* POSIX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = POSIX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -670,7 +693,7 @@
 		"_____Product_URI" /* URI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = URI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Venice" /* Venice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Venice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_ZewoSrv" /* ZewoSrv */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ZewoSrv; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_ZewoSrvTestSuite" /* ZewoSrvTestSuite.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = ZewoSrvTestSuite.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_ZewoSrvTestSuite" /* ZewoSrvTestSuite.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZewoSrvTestSuite.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -769,6 +792,15 @@
 				_LinkFileRef_CLibvenice_via_IP /* CLibvenice.framework in Frameworks */,
 				_LinkFileRef_POSIX_via_IP /* POSIX.framework in Frameworks */,
 				_LinkFileRef_Venice_via_IP /* Venice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_JSON" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_C7_via_JSON /* C7.framework in Frameworks */,
+				_LinkFileRef_StructuredData_via_JSON /* StructuredData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -955,13 +987,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				_LinkFileRef_StructuredData_via_ZewoSrv /* StructuredData.framework in Frameworks */,
 				_LinkFileRef_CLibvenice_via_ZewoSrv /* CLibvenice.framework in Frameworks */,
 				_LinkFileRef_MediaType_via_ZewoSrv /* MediaType.framework in Frameworks */,
-				_LinkFileRef_C7_via_ZewoSrv /* C7.framework in Frameworks */,
 				_LinkFileRef_CURIParser_via_ZewoSrv /* CURIParser.framework in Frameworks */,
 				_LinkFileRef_POSIX_via_ZewoSrv /* POSIX.framework in Frameworks */,
 				_LinkFileRef_Venice_via_ZewoSrv /* Venice.framework in Frameworks */,
+				_LinkFileRef_C7_via_ZewoSrv /* C7.framework in Frameworks */,
 				_LinkFileRef_Log_via_ZewoSrv /* Log.framework in Frameworks */,
 				_LinkFileRef_String_via_ZewoSrv /* String.framework in Frameworks */,
 				_LinkFileRef_PathParameterMiddleware_via_ZewoSrv /* PathParameterMiddleware.framework in Frameworks */,
@@ -971,12 +1002,14 @@
 				_LinkFileRef_URI_via_ZewoSrv /* URI.framework in Frameworks */,
 				_LinkFileRef_CHTTPParser_via_ZewoSrv /* CHTTPParser.framework in Frameworks */,
 				_LinkFileRef_IP_via_ZewoSrv /* IP.framework in Frameworks */,
+				_LinkFileRef_StructuredData_via_ZewoSrv /* StructuredData.framework in Frameworks */,
 				_LinkFileRef_SQL_via_ZewoSrv /* SQL.framework in Frameworks */,
 				_LinkFileRef_TrieRouteMatcher_via_ZewoSrv /* TrieRouteMatcher.framework in Frameworks */,
 				_LinkFileRef_RegexRouteMatcher_via_ZewoSrv /* RegexRouteMatcher.framework in Frameworks */,
 				_LinkFileRef_HTTPSerializer_via_ZewoSrv /* HTTPSerializer.framework in Frameworks */,
 				_LinkFileRef_HTTPParser_via_ZewoSrv /* HTTPParser.framework in Frameworks */,
 				_LinkFileRef_TCP_via_ZewoSrv /* TCP.framework in Frameworks */,
+				_LinkFileRef_JSON_via_ZewoSrv /* JSON.framework in Frameworks */,
 				_LinkFileRef_PostgreSQL_via_ZewoSrv /* PostgreSQL.framework in Frameworks */,
 				_LinkFileRef_Router_via_ZewoSrv /* Router.framework in Frameworks */,
 				_LinkFileRef_HTTPServer_via_ZewoSrv /* HTTPServer.framework in Frameworks */,
@@ -987,13 +1020,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				_LinkFileRef_StructuredData_via_ZewoSrvTestSuite /* StructuredData.framework in Frameworks */,
 				_LinkFileRef_CLibvenice_via_ZewoSrvTestSuite /* CLibvenice.framework in Frameworks */,
 				_LinkFileRef_MediaType_via_ZewoSrvTestSuite /* MediaType.framework in Frameworks */,
-				_LinkFileRef_C7_via_ZewoSrvTestSuite /* C7.framework in Frameworks */,
 				_LinkFileRef_CURIParser_via_ZewoSrvTestSuite /* CURIParser.framework in Frameworks */,
 				_LinkFileRef_POSIX_via_ZewoSrvTestSuite /* POSIX.framework in Frameworks */,
 				_LinkFileRef_Venice_via_ZewoSrvTestSuite /* Venice.framework in Frameworks */,
+				_LinkFileRef_C7_via_ZewoSrvTestSuite /* C7.framework in Frameworks */,
 				_LinkFileRef_Log_via_ZewoSrvTestSuite /* Log.framework in Frameworks */,
 				_LinkFileRef_String_via_ZewoSrvTestSuite /* String.framework in Frameworks */,
 				_LinkFileRef_PathParameterMiddleware_via_ZewoSrvTestSuite /* PathParameterMiddleware.framework in Frameworks */,
@@ -1003,12 +1035,14 @@
 				_LinkFileRef_URI_via_ZewoSrvTestSuite /* URI.framework in Frameworks */,
 				_LinkFileRef_CHTTPParser_via_ZewoSrvTestSuite /* CHTTPParser.framework in Frameworks */,
 				_LinkFileRef_IP_via_ZewoSrvTestSuite /* IP.framework in Frameworks */,
+				_LinkFileRef_StructuredData_via_ZewoSrvTestSuite /* StructuredData.framework in Frameworks */,
 				_LinkFileRef_SQL_via_ZewoSrvTestSuite /* SQL.framework in Frameworks */,
 				_LinkFileRef_TrieRouteMatcher_via_ZewoSrvTestSuite /* TrieRouteMatcher.framework in Frameworks */,
 				_LinkFileRef_RegexRouteMatcher_via_ZewoSrvTestSuite /* RegexRouteMatcher.framework in Frameworks */,
 				_LinkFileRef_HTTPSerializer_via_ZewoSrvTestSuite /* HTTPSerializer.framework in Frameworks */,
 				_LinkFileRef_HTTPParser_via_ZewoSrvTestSuite /* HTTPParser.framework in Frameworks */,
 				_LinkFileRef_TCP_via_ZewoSrvTestSuite /* TCP.framework in Frameworks */,
+				_LinkFileRef_JSON_via_ZewoSrvTestSuite /* JSON.framework in Frameworks */,
 				_LinkFileRef_PostgreSQL_via_ZewoSrvTestSuite /* PostgreSQL.framework in Frameworks */,
 				_LinkFileRef_Router_via_ZewoSrvTestSuite /* Router.framework in Frameworks */,
 				_LinkFileRef_HTTPServer_via_ZewoSrvTestSuite /* HTTPServer.framework in Frameworks */,
@@ -1047,6 +1081,7 @@
 				"_______Group_Log" /* Log */,
 				"_______Group_SQL" /* SQL */,
 				"_______Group_PostgreSQL" /* PostgreSQL */,
+				"_______Group_JSON" /* JSON */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
@@ -1100,6 +1135,7 @@
 				"_____Product_Log" /* Log.framework */,
 				"_____Product_SQL" /* SQL.framework */,
 				"_____Product_PostgreSQL" /* PostgreSQL.framework */,
+				"_____Product_JSON" /* JSON.framework */,
 				"_____Product_ZewoSrv" /* ZewoSrv */,
 			);
 			name = Products;
@@ -1256,6 +1292,20 @@
 			);
 			name = IP;
 			path = "Packages/IP-0.7.0/Source";
+			sourceTree = "<group>";
+		};
+		"_______Group_JSON" /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/JSON-0.9.0/Source/JSON.swift" /* JSON.swift */,
+				"__PBXFileRef_Packages/JSON-0.9.0/Source/JSONParser.swift" /* JSONParser.swift */,
+				"__PBXFileRef_Packages/JSON-0.9.0/Source/JSONSerializer.swift" /* JSONSerializer.swift */,
+				"__PBXFileRef_Packages/JSON-0.9.0/Source/JSONStructuredDataParser.swift" /* JSONStructuredDataParser.swift */,
+				"__PBXFileRef_Packages/JSON-0.9.0/Source/JSONStructuredDataSerializer.swift" /* JSONStructuredDataSerializer.swift */,
+				__PBXFileRef_JSON_Info.plist /* JSON_Info.plist */,
+			);
+			name = JSON;
+			path = "Packages/JSON-0.9.0/Source";
 			sourceTree = "<group>";
 		};
 		"_______Group_Log" /* Log */ = {
@@ -1476,12 +1526,12 @@
 		"_______Group_ZewoSrv" /* ZewoSrv */ = {
 			isa = PBXGroup;
 			children = (
+				"__PBXFileRef_Sources/DateFormatter+Srv.swift" /* DateFormatter+Srv.swift */,
+				__PBXFileRef_Sources/dbMigrations.swift /* dbMigrations.swift */,
+				__PBXFileRef_Sources/dbTools.swift /* dbTools.swift */,
+				__PBXFileRef_Sources/LinuxSupport.swift /* LinuxSupport.swift */,
 				__PBXFileRef_Sources/main.swift /* main.swift */,
-				C33A50FC1D15D58700F58D37 /* dbTools.swift */,
-				C33A50FE1D15D5C900F58D37 /* dbMigrations.swift */,
-				C34A3FE11D16E8A000642553 /* LinuxSupport.swift */,
-				C34A3FE31D16EB2E00642553 /* Models.swift */,
-				C34A3FE51D16F43400642553 /* DateFormatter+Srv.swift */,
+				__PBXFileRef_Sources/Models.swift /* Models.swift */,
 			);
 			name = ZewoSrv;
 			path = Sources;
@@ -1685,6 +1735,24 @@
 			name = IP;
 			productName = IP;
 			productReference = "_____Product_IP" /* IP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_JSON" /* JSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_JSON" /* Build configuration list for PBXNativeTarget "JSON" */;
+			buildPhases = (
+				CompilePhase_JSON /* Sources */,
+				"___LinkPhase_JSON" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_StructuredData /* PBXTargetDependency */,
+			);
+			name = JSON;
+			productName = JSON;
+			productReference = "_____Product_JSON" /* JSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		"______Target_Log" /* Log */ = {
@@ -2020,13 +2088,12 @@
 			buildRules = (
 			);
 			dependencies = (
-				__Dependency_StructuredData /* PBXTargetDependency */,
 				__Dependency_CLibvenice /* PBXTargetDependency */,
 				__Dependency_MediaType /* PBXTargetDependency */,
-				__Dependency_C7 /* PBXTargetDependency */,
 				__Dependency_CURIParser /* PBXTargetDependency */,
 				__Dependency_POSIX /* PBXTargetDependency */,
 				__Dependency_Venice /* PBXTargetDependency */,
+				__Dependency_C7 /* PBXTargetDependency */,
 				__Dependency_Log /* PBXTargetDependency */,
 				__Dependency_String /* PBXTargetDependency */,
 				__Dependency_PathParameterMiddleware /* PBXTargetDependency */,
@@ -2036,12 +2103,14 @@
 				__Dependency_URI /* PBXTargetDependency */,
 				__Dependency_CHTTPParser /* PBXTargetDependency */,
 				__Dependency_IP /* PBXTargetDependency */,
+				__Dependency_StructuredData /* PBXTargetDependency */,
 				__Dependency_SQL /* PBXTargetDependency */,
 				__Dependency_TrieRouteMatcher /* PBXTargetDependency */,
 				__Dependency_RegexRouteMatcher /* PBXTargetDependency */,
 				__Dependency_HTTPSerializer /* PBXTargetDependency */,
 				__Dependency_HTTPParser /* PBXTargetDependency */,
 				__Dependency_TCP /* PBXTargetDependency */,
+				__Dependency_JSON /* PBXTargetDependency */,
 				__Dependency_PostgreSQL /* PBXTargetDependency */,
 				__Dependency_Router /* PBXTargetDependency */,
 				__Dependency_HTTPServer /* PBXTargetDependency */,
@@ -2061,13 +2130,12 @@
 			buildRules = (
 			);
 			dependencies = (
-				__Dependency_StructuredData /* PBXTargetDependency */,
 				__Dependency_CLibvenice /* PBXTargetDependency */,
 				__Dependency_MediaType /* PBXTargetDependency */,
-				__Dependency_C7 /* PBXTargetDependency */,
 				__Dependency_CURIParser /* PBXTargetDependency */,
 				__Dependency_POSIX /* PBXTargetDependency */,
 				__Dependency_Venice /* PBXTargetDependency */,
+				__Dependency_C7 /* PBXTargetDependency */,
 				__Dependency_Log /* PBXTargetDependency */,
 				__Dependency_String /* PBXTargetDependency */,
 				__Dependency_PathParameterMiddleware /* PBXTargetDependency */,
@@ -2077,12 +2145,14 @@
 				__Dependency_URI /* PBXTargetDependency */,
 				__Dependency_CHTTPParser /* PBXTargetDependency */,
 				__Dependency_IP /* PBXTargetDependency */,
+				__Dependency_StructuredData /* PBXTargetDependency */,
 				__Dependency_SQL /* PBXTargetDependency */,
 				__Dependency_TrieRouteMatcher /* PBXTargetDependency */,
 				__Dependency_RegexRouteMatcher /* PBXTargetDependency */,
 				__Dependency_HTTPSerializer /* PBXTargetDependency */,
 				__Dependency_HTTPParser /* PBXTargetDependency */,
 				__Dependency_TCP /* PBXTargetDependency */,
+				__Dependency_JSON /* PBXTargetDependency */,
 				__Dependency_PostgreSQL /* PBXTargetDependency */,
 				__Dependency_Router /* PBXTargetDependency */,
 				__Dependency_HTTPServer /* PBXTargetDependency */,
@@ -2138,6 +2208,7 @@
 				"______Target_Log" /* Log */,
 				"______Target_SQL" /* SQL */,
 				"______Target_PostgreSQL" /* PostgreSQL */,
+				"______Target_JSON" /* JSON */,
 				"______Target_ZewoSrv" /* ZewoSrv */,
 				"______Target_ZewoSrvTestSuite" /* ZewoSrvTestSuite */,
 			);
@@ -2261,6 +2332,18 @@
 			buildActionMask = 0;
 			files = (
 				"__src_cc_ref_Packages/IP-0.7.0/Source/IP.swift" /* IP.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_JSON /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/JSON-0.9.0/Source/JSON.swift" /* JSON.swift in Sources */,
+				"__src_cc_ref_Packages/JSON-0.9.0/Source/JSONParser.swift" /* JSONParser.swift in Sources */,
+				"__src_cc_ref_Packages/JSON-0.9.0/Source/JSONSerializer.swift" /* JSONSerializer.swift in Sources */,
+				"__src_cc_ref_Packages/JSON-0.9.0/Source/JSONStructuredDataParser.swift" /* JSONStructuredDataParser.swift in Sources */,
+				"__src_cc_ref_Packages/JSON-0.9.0/Source/JSONStructuredDataSerializer.swift" /* JSONStructuredDataSerializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2451,12 +2534,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				C34A3FE61D16F43400642553 /* DateFormatter+Srv.swift in Sources */,
+				"__src_cc_ref_Sources/DateFormatter+Srv.swift" /* DateFormatter+Srv.swift in Sources */,
+				__src_cc_ref_Sources/dbMigrations.swift /* dbMigrations.swift in Sources */,
+				__src_cc_ref_Sources/dbTools.swift /* dbTools.swift in Sources */,
+				__src_cc_ref_Sources/LinuxSupport.swift /* LinuxSupport.swift in Sources */,
 				__src_cc_ref_Sources/main.swift /* main.swift in Sources */,
-				C33A50FF1D15D5C900F58D37 /* dbMigrations.swift in Sources */,
-				C34A3FE21D16E8A000642553 /* LinuxSupport.swift in Sources */,
-				C33A50FD1D15D58700F58D37 /* dbTools.swift in Sources */,
-				C34A3FE41D16EB2E00642553 /* Models.swift in Sources */,
+				__src_cc_ref_Sources/Models.swift /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2474,132 +2557,137 @@
 		__Dependency_C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_C7" /* C7 */;
-			targetProxy = C33A50E21D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FE71D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_CHTTPParser /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_CHTTPParser" /* CHTTPParser */;
-			targetProxy = C33A50EB1D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FF01D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_CLibvenice /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_CLibvenice" /* CLibvenice */;
-			targetProxy = C33A50E31D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FE81D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_CURIParser /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_CURIParser" /* CURIParser */;
-			targetProxy = C33A50E71D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FEC1D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_HTTP /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_HTTP" /* HTTP */;
-			targetProxy = C33A50F11D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FF61D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_HTTPParser /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_HTTPParser" /* HTTPParser */;
-			targetProxy = C33A50ED1D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FF21D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_HTTPSerializer /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_HTTPSerializer" /* HTTPSerializer */;
-			targetProxy = C33A50EC1D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FF11D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_HTTPServer /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_HTTPServer" /* HTTPServer */;
-			targetProxy = C33A50FA1D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A40001D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_IP /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_IP" /* IP */;
-			targetProxy = C33A50E61D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FEB1D16FA6E00642553 /* PBXContainerItemProxy */;
+		};
+		__Dependency_JSON /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_JSON" /* JSON */;
+			targetProxy = C34A3FFD1D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Log /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Log" /* Log */;
-			targetProxy = C33A50F61D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FFB1D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_MediaType /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_MediaType" /* MediaType */;
-			targetProxy = C33A50F01D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FF51D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_POSIX /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_POSIX" /* POSIX */;
-			targetProxy = C33A50E41D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FE91D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_POSIXRegex /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_POSIXRegex" /* POSIXRegex */;
-			targetProxy = C33A50F31D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FF81D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_PathParameterMiddleware /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PathParameterMiddleware" /* PathParameterMiddleware */;
-			targetProxy = C33A50F21D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FF71D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_PostgreSQL /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PostgreSQL" /* PostgreSQL */;
-			targetProxy = C33A50F81D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FFE1D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_RegexRouteMatcher /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_RegexRouteMatcher" /* RegexRouteMatcher */;
-			targetProxy = C33A50F51D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FFA1D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Router /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Router" /* Router */;
-			targetProxy = C33A50F91D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FFF1D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_S4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_S4" /* S4 */;
-			targetProxy = C33A50E91D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FEE1D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_SQL /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_SQL" /* SQL */;
-			targetProxy = C33A50F71D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FFC1D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_String /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_String" /* String */;
-			targetProxy = C33A50E81D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FED1D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_StructuredData /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_StructuredData" /* StructuredData */;
-			targetProxy = C33A50EF1D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FF41D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_TCP /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_TCP" /* TCP */;
-			targetProxy = C33A50EE1D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FF31D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_TrieRouteMatcher /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_TrieRouteMatcher" /* TrieRouteMatcher */;
-			targetProxy = C33A50F41D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FF91D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_URI /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_URI" /* URI */;
-			targetProxy = C33A50EA1D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FEF1D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Venice /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Venice" /* Venice */;
-			targetProxy = C33A50E51D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A3FEA1D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 		__Dependency_ZewoSrv /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_ZewoSrv" /* ZewoSrv */;
-			targetProxy = C33A50FB1D15CFCC00F58D37 /* PBXContainerItemProxy */;
+			targetProxy = C34A40011D16FA6E00642553 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2725,6 +2813,19 @@
 				ENABLE_TESTABILITY = YES;
 				HEADER_SEARCH_PATHS = "/Users/volodg/Sources/appdaddymobilehelper/ZewoSrv/Packages/CLibvenice-0.5.1/Sources/include";
 				INFOPLIST_FILE = ZewoSrv.xcodeproj/IP_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_JSON /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/JSON_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -3125,6 +3226,20 @@
 			};
 			name = Debug;
 		};
+		"___DebugConf_JSON" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = ZewoSrv.xcodeproj/JSON_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
 		"___DebugConf_Log" /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3500,6 +3615,15 @@
 			buildConfigurations = (
 				"___DebugConf_IP" /* Debug */,
 				_ReleaseConf_IP /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_JSON" /* Build configuration list for PBXNativeTarget "JSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_JSON" /* Debug */,
+				_ReleaseConf_JSON /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

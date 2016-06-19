@@ -230,6 +230,15 @@
       <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
         <BuildableReference
           BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_JSON"
+          BuildableName = "JSON.framework"
+          BlueprintName = "JSON"
+          ReferencedContainer = "container:ZewoSrv.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
           BlueprintIdentifier = "______Target_ZewoSrv"
           BuildableName = "ZewoSrv"
           BlueprintName = "ZewoSrv"
