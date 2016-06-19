@@ -39,7 +39,7 @@ extension IosLog {
 
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss ZZZZZ"
-        let date = dateStr.flatMap { dateFormatter.date(from: $0) } ?? Date()
+        let date = dateStr.flatMap { dateFormatter.date(from: $0) } ?? NSDate()
 
         let result = IosLog(
             text           : json.get(optional: "Text"  ),
