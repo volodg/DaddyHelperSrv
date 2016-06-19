@@ -9,6 +9,7 @@
 import Foundation
 
 #if os(Linux)
+    typealias Locale = NSLocale
     typealias Date = NSDate
     typealias DateFormatter = NSDateFormatter
 
