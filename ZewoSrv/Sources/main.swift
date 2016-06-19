@@ -46,6 +46,11 @@ extension IosLog {
 
 let app = Router { route in
 
+    route.get("/hello") { request in
+
+        return Response(body: "Hello, world!\n")
+    }
+
     route.post("/push_ios_log") { request in
 
         let body = request.body
