@@ -34,7 +34,7 @@ struct IosLog {
 #if os(Linux)
     typealias DateFormatter = NSDateFormatter
 
-    extension DateFormatter {
+    extension NSDateFormatter {
         func date(from string: String) -> Date? {
             return dateFromString(string)
         }
