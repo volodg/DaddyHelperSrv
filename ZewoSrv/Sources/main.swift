@@ -17,7 +17,7 @@ struct IosLog {
     let text           : String?
     let events         : String?
     let userId         : String?
-    let date           : Date
+    let date           : NSDate
     let osVersion      : String?
     let appVersion     : String?
     let idfa           : String?
