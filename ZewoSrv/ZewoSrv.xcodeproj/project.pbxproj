@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		C33A50FD1D15D58700F58D37 /* dbTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33A50FC1D15D58700F58D37 /* dbTools.swift */; };
 		C33A50FF1D15D5C900F58D37 /* dbMigrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33A50FE1D15D5C900F58D37 /* dbMigrations.swift */; };
+		C34A3FE21D16E8A000642553 /* LinuxSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A3FE11D16E8A000642553 /* LinuxSupport.swift */; };
+		C34A3FE41D16EB2E00642553 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A3FE31D16EB2E00642553 /* Models.swift */; };
+		C34A3FE61D16F43400642553 /* DateFormatter+Srv.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A3FE51D16F43400642553 /* DateFormatter+Srv.swift */; };
 		_LinkFileRef_C7_via_HTTP /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
 		_LinkFileRef_C7_via_HTTPParser /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
 		_LinkFileRef_C7_via_HTTPSerializer /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
@@ -481,6 +484,9 @@
 /* Begin PBXFileReference section */
 		C33A50FC1D15D58700F58D37 /* dbTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dbTools.swift; sourceTree = "<group>"; };
 		C33A50FE1D15D5C900F58D37 /* dbMigrations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dbMigrations.swift; sourceTree = "<group>"; };
+		C34A3FE11D16E8A000642553 /* LinuxSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinuxSupport.swift; sourceTree = "<group>"; };
+		C34A3FE31D16EB2E00642553 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C34A3FE51D16F43400642553 /* DateFormatter+Srv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Srv.swift"; sourceTree = "<group>"; };
 		__PBXFileRef_C7_Info.plist /* C7_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = C7_Info.plist; path = ZewoSrv.xcodeproj/C7_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_CHTTPParser_Info.plist /* CHTTPParser_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CHTTPParser_Info.plist; path = ZewoSrv.xcodeproj/CHTTPParser_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_CLibvenice_Info.plist /* CLibvenice_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CLibvenice_Info.plist; path = ZewoSrv.xcodeproj/CLibvenice_Info.plist; sourceTree = SOURCE_ROOT; };
@@ -664,7 +670,7 @@
 		"_____Product_URI" /* URI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = URI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Venice" /* Venice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Venice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_ZewoSrv" /* ZewoSrv */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ZewoSrv; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_ZewoSrvTestSuite" /* ZewoSrvTestSuite.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZewoSrvTestSuite.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_ZewoSrvTestSuite" /* ZewoSrvTestSuite.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = ZewoSrvTestSuite.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1473,6 +1479,9 @@
 				__PBXFileRef_Sources/main.swift /* main.swift */,
 				C33A50FC1D15D58700F58D37 /* dbTools.swift */,
 				C33A50FE1D15D5C900F58D37 /* dbMigrations.swift */,
+				C34A3FE11D16E8A000642553 /* LinuxSupport.swift */,
+				C34A3FE31D16EB2E00642553 /* Models.swift */,
+				C34A3FE51D16F43400642553 /* DateFormatter+Srv.swift */,
 			);
 			name = ZewoSrv;
 			path = Sources;
@@ -2442,9 +2451,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				C34A3FE61D16F43400642553 /* DateFormatter+Srv.swift in Sources */,
 				__src_cc_ref_Sources/main.swift /* main.swift in Sources */,
 				C33A50FF1D15D5C900F58D37 /* dbMigrations.swift in Sources */,
+				C34A3FE21D16E8A000642553 /* LinuxSupport.swift in Sources */,
 				C33A50FD1D15D58700F58D37 /* dbTools.swift in Sources */,
+				C34A3FE41D16EB2E00642553 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,46 +10,15 @@ import struct HTTPServer.Server
 import Router
 import Foundation
 
-#if os(Linux)
-    typealias Date = NSDate
-    typealias DateFormatter = NSDateFormatter
-
-    extension DateFormatter {
-        func date(from string: String) -> Date? {
-            return dateFromString(string)
-        }
-    }
-#endif
-
 try migrateAll()
-
-struct IosLog {
-
-    let text           : String?
-    let events         : String?
-    let userId         : String?
-    let date           : Date
-    let osVersion      : String?
-    let appVersion     : String?
-    let idfa           : String?
-    let context        : String?
-    let bundle         : String?
-    let apiKey         : String?
-    let apiVersion     : String?
-    let appBuildVersion: String?
-    let level          : String?
-    let modelName      : String?
-    let schema         : String?//live dev beta
-}
 
 extension IosLog {
 
-    static func fromJson(json: C7.StructuredData) throws -> IosLog {
+    static func fromJson(json: StructuredData) -> IosLog {
 
-        let dateStr: String? = json.get(optional: "Events")
+        let dateStr: String? = json.get(optional: "Date")
 
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss ZZZZZ"
+        let dateFormatter = DateFormatter.dbDateFormat()
         let date = dateStr.flatMap { dateFormatter.date(from: $0) } ?? Date()
 
         let result = IosLog(
@@ -57,17 +26,18 @@ extension IosLog {
             events         : json.get(optional: "Events"),
             userId         : json.get(optional: "UserId"),
             date           : date,
-            osVersion      : nil,
-            appVersion     : nil,
-            idfa           : nil,
-            context        : nil,
-            bundle         : nil,
-            apiKey         : nil,
-            apiVersion     : nil,
-            appBuildVersion: nil,
-            level          : nil,
-            modelName      : nil,
-            schema         : nil)
+            osVersion      : json.get(optional: "OS Version"),
+            appVersion     : json.get(optional: "AppVersion"),
+            idfa           : json.get(optional: "IDFA"),
+            context        : json.get(optional: "Context"),
+            bundle         : json.get(optional: "Bundle"),
+            apiKey         : json.get(optional: "ApiKey"),
+            apiVersion     : json.get(optional: "API Version"),
+            appBuildVersion: json.get(optional: "AppBuildVersion"),
+            level          : json.get(optional: "Level"),
+            modelName      : json.get(optional: "Model Name"),
+            schema         : json.get(optional: "Schema")
+        )
 
         return result
     }
@@ -83,13 +53,26 @@ let app = Router { route in
         case .buffer(let data):
 
             do {
-                let jsonAr = try data.structuredData.asArray()
+                let str = try String(data: data)
+                print("str: \(str)")
+                let dataAr = str.structuredData
+                print("dataAr: \(dataAr)")
+                let jsonAr = try dataAr.asArray()
 
-                for json in jsonAr {
-                    
+                do {
+                    let connection = try getOpenConnection()
+
+                    for json in jsonAr {
+
+                        let log = IosLog.fromJson(json: json)
+
+                        try log.putToDb(connection: connection)
+                    }
+
+                    return Response(body: "Hello, world!\n")
+                } catch let error {
+                    return Response(status: .notImplemented, headers: [:], body: "db error")
                 }
-
-                return Response(body: "Hello, world!\n")
             } catch let error {
                 return Response(status: .notImplemented, headers: [:], body: "invalid json type: \(error)")
             }

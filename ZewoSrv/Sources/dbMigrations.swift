@@ -8,10 +8,13 @@
 
 import PostgreSQL
 
+let tableName = "ios_logs"
+
 private func migrate0(connection: Connection) throws {
 
-    let createTable = "CREATE TABLE IF NOT EXISTS ios_logs ("
-        + "text text"
+    let createTable = "CREATE TABLE IF NOT EXISTS \(tableName) ("
+        + "id SERIAL PRIMARY KEY"
+        + ", text text"
         + ", events text"
         + ", userId varchar(100)"
         + ", date timestamp with time zone"
