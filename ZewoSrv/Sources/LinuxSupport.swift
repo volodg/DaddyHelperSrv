@@ -17,9 +17,5 @@ import Foundation
         func date(from string: String) -> Date? {
             return dateFromString(string)
         }
-
-//        func string(from date: Date) -> String {
-//            return stringFromDate(date)
-//        }
     }
 #endif
