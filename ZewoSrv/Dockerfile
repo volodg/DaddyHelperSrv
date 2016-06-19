@@ -10,18 +10,13 @@ ADD ./Sources /$APP_NAME/Sources
 RUN apt-get update
 RUN echo "Y" | apt-get install clang libicu-dev binutils git libpq-dev postgresql curl
 
-RUN cd /root/
-RUN rm -rf swift-3.0-preview-1-ubuntu15.10.tar.gz
 RUN curl -O https://swift.org/builds/swift-3.0-preview-1/ubuntu1510/swift-3.0-preview-1/swift-3.0-preview-1-ubuntu15.10.tar.gz
 RUN tar -zxf swift-3.0-preview-1-ubuntu15.10.tar.gz
 RUN mv swift-3.0-preview-1-ubuntu15.10 swift
 RUN rm -rf swift-3.0-preview-1-ubuntu15.10.tar.gz
-RUN cd /$APP_NAME/
 
-#RUN export PATH=/root/swift/usr/bin:\"\${PATH}\"
-#RUN ls /
-#RUN echo "export PATH=/$APP_NAME/swift/usr/bin:\"\${PATH}\"" >> ~/.bashrc
-#RUN source ~/.bashrc
+RUN export PATH=/$APP_NAME/swift/usr/bin:\"\${PATH}\"
+RUN echo "export PATH=/$APP_NAME/swift/usr/bin:\"\${PATH}\"" >> ~/.bashrc
 
 #RUN swift build -Xcc -I/usr/include/postgresql -Xlinker -L/usr/local/lib/
 # --configuration release
