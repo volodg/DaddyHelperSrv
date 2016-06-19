@@ -18,8 +18,8 @@ import Foundation
             return dateFromString(string)
         }
 
-        func string(from date: Date) -> String {
-            return stringFromDate(date)
-        }
+//        func string(from date: Date) -> String {
+//            return stringFromDate(date)
+//        }
     }
 #endif
