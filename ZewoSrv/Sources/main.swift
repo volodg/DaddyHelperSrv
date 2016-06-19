@@ -93,6 +93,7 @@ let app = Router { route in
     }
 }
 
-let server = try Server(host: "127.0.0.1", port: 80, responder: app)
+let server = try Server(app)
+    //Server(host: "127.0.0.1", port: 80, responder: app)
 
 try server.start()
