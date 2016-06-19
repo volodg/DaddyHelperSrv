@@ -74,6 +74,9 @@ let app = Router { route in
                         try log.putToDb(connection: connection)
                     }
 
+                    #if os(Linux)
+                        return Response(body: "Hello, world from docker!\n")
+                    #endif
                     return Response(body: "Hello, world!\n")
                 } catch let error {
                     return Response(status: .internalServerError, headers: [:], body: "db error\n")
