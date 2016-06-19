@@ -54,11 +54,11 @@ let app = Router { route in
         case .buffer(let data):
 
             do {
-                let str = try String(data: data)
-                print("str: \(str)")
-                let dataAr = str.structuredData
-                print("dataAr: \(dataAr)")
-                let jsonAr = try dataAr.asArray()
+                let parser = JSONStructuredDataParser()
+                let json = try parser.parse(data)
+                guard let jsonAr = json.arrayValue else {
+                    return Response(status: .badRequest, headers: [:], body: "invalid json type: \(json)")
+                }
 
                 do {
                     let connection = try getOpenConnection()
@@ -66,22 +66,21 @@ let app = Router { route in
                     for json in jsonAr {
 
                         let log = IosLog.fromJson(json: json)
-
                         try log.putToDb(connection: connection)
                     }
 
                     return Response(body: "Hello, world!\n")
                 } catch let error {
-                    return Response(status: .notImplemented, headers: [:], body: "db error")
+                    return Response(status: .internalServerError, headers: [:], body: "db error\n")
                 }
             } catch let error {
-                return Response(status: .notImplemented, headers: [:], body: "invalid json type: \(error)")
+                return Response(status: .badRequest, headers: [:], body: "invalid json type: \(error)")
             }
         case .receiver:
             return Response(status: .notImplemented, headers: [:], body: "unsupported receiver stream body")
         case .sender:
             return Response(status: .notImplemented, headers: [:], body: "unsupported sender body")
-        case .asyncReceiver://(AsyncStream)
+        case .asyncReceiver:
             return Response(status: .notImplemented, headers: [:], body: "unsupported asyncReceiver body")
         case .asyncSender:
             return Response(status: .notImplemented, headers: [:], body: "unsupported asyncSender body")

@@ -35,7 +35,10 @@ extension IosLog {
 
         let fields = "text,events,userId,date,osVersion,appVersion,idfa,context,bundle,apiKey,apiVersion,appBuildVersion,level,modelName,schema"
 
-        let values = "'\(text)','\(events)','\(userId),'\(date),'\(osVersion),'\(appVersion),'\(idfa),'\(context),'\(bundle),'\(apiKey),'\(apiVersion),'\(appBuildVersion),'\(level),'\(modelName),'\(schema)"
+        let formatter = DateFormatter.dbDateFormat()
+        let dateStr = formatter.string(from: date)
+
+        let values = "'\(text)','\(events)','\(userId),'\(dateStr),'\(osVersion),'\(appVersion),'\(idfa),'\(context),'\(bundle),'\(apiKey),'\(apiVersion),'\(appBuildVersion),'\(level),'\(modelName),'\(schema)"
 
         let stmt = "INSERT into \(tableName) (\(fields)) VALUES(\(values)) RETURNING id"
 
