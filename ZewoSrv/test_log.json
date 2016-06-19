@@ -1,0 +1,18 @@
+[
+	{
+        "Text" : "UnauthorizedError : UnauthorizedError: valid _apiKey required context: <URLConnectionParams url: http://api.godev.apdaddy.us/api/user/logout?_apikey=NDUzZDY5Y2M0ZTg4OTk3NWQwZTZmYmIzMjZjZWQwNDZjZDRlMGY5MA, httpBody: nil, headers: [\"X-Apd-TZ\": \"GMT+3\", \"X-Apd-Lang\": \"ru_RU\", \"X-Apd-Api\": \"1.13\"]>, domain : com.just_for_fun.library code : 0",
+        "Events" : "\ncategory: LoginVC, action: onMailLogin, label: no label\ncategory: ProfileSettingsVC, action: onLogout, label: no label\ncategory: ProfileVC, action: onSettings, label: no label\ncategory: ProfileVC, action: ProfileName-, label: no label",
+        "UserId" : "no user id",
+        "Date" : "2016-06-17 15:47:33 +0000",
+        "OS Version" : "Version 9.3.1 (Build 13E238)",
+        "AppVersion" : "1.6.9",
+        "IDFA" : "2B6A3BAD-D33D-40DF-AD5D-49F62E8BFE3C",
+        "Context" : "genericAnalyzer(_:status400Parser:):403",
+        "Bundle" : "com.appdaddy.go.test",
+        "ApiKey" : "no api key",
+        "API Version" : "1.13",
+        "AppBuildVersion" : 549,
+        "Level" : "error",
+        "Model Name" : "iPhone 5s"
+    }
+]

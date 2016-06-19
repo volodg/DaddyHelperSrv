@@ -25,6 +25,7 @@ private func migrate0(connection: Connection) throws {
         + ", appBuildVersion varchar(100)"
         + ", level varchar(100)"
         + ", modelName varchar(100)"
+        + ", schema varchar(100)"//live dev beta
         + ")"
 
     let status = try connection.execute(createTable)
