@@ -10,7 +10,7 @@ ADD ./Sources /$APP_NAME/Sources
 RUN apt-get update
 RUN echo "Y" | apt-get install clang libicu-dev binutils git libpq-dev postgresql
 
-RUN swift build --configuration release
+RUN swift build -Xcc -I/usr/include/postgresql -Xlinker -L/usr/local/lib/ --configuration release
 
 EXPOSE 8080
 
