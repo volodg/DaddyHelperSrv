@@ -10,6 +10,17 @@ import struct HTTPServer.Server
 import Router
 import Foundation
 
+#if os(Linux)
+    typealias Date = NSDate
+    typealias DateFormatter = NSDateFormatter
+
+    extension DateFormatter {
+        func date(from string: String) -> Date? {
+            return dateFromString(string)
+        }
+    }
+#endif
+
 try migrateAll()
 
 struct IosLog {
@@ -17,7 +28,7 @@ struct IosLog {
     let text           : String?
     let events         : String?
     let userId         : String?
-    let date           : NSDate
+    let date           : Date
     let osVersion      : String?
     let appVersion     : String?
     let idfa           : String?
@@ -31,16 +42,6 @@ struct IosLog {
     let schema         : String?//live dev beta
 }
 
-#if os(Linux)
-    typealias DateFormatter = NSDateFormatter
-
-    extension NSDateFormatter {
-        func date(from string: String) -> Date? {
-            return dateFromString(string)
-        }
-    }
-#endif
-
 extension IosLog {
 
     static func fromJson(json: C7.StructuredData) throws -> IosLog {
@@ -49,7 +50,7 @@ extension IosLog {
 
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss ZZZZZ"
-        let date = dateStr.flatMap { dateFormatter.date(from: $0) } ?? NSDate()
+        let date = dateStr.flatMap { dateFormatter.date(from: $0) } ?? Date()
 
         let result = IosLog(
             text           : json.get(optional: "Text"  ),
