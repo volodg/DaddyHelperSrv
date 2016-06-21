@@ -48,7 +48,7 @@ let app = Router { route in
 
     route.get("/hello") { request in
 
-        return Response(body: "Hello, world!\n")
+        return Response(body: "Hello, world! ver 10\n")
     }
 
     route.post("/push_ios_log") { request in
@@ -75,9 +75,9 @@ let app = Router { route in
                     }
 
                     #if os(Linux)
-                        return Response(body: "Hello, world from docker!\n")
+                        return Response(body: "Hello, world from docker! ver 10\n")
                     #endif
-                    return Response(body: "Hello, world!\n")
+                    return Response(body: "Hello, world! ver 10\n")
                 } catch let error {
                     return Response(status: .internalServerError, headers: [:], body: "db error\n")
                 }

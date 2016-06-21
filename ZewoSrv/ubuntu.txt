@@ -24,6 +24,10 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgres
 
 docker stop $(docker ps -a -q)
 
+eval "$(docker-machine env default)"
+
+docker build -t volodg/zewosrv .
+
 docker login
 
 docker run -p 8080:8080 volodg/zewosrv
@@ -31,3 +35,13 @@ docker run -p 8080:8080 volodg/zewosrv
 docker ps
 
 docker exec -i -t NAMES /bin/bash
+
+################################################################################################################################################################
+
+Amazon - 
+turivniy@gmail.com
+asr5znW0tq@
+
+url - https://937479032305.dkr.ecr.us-west-2.amazonaws.com/daddy-mobile-helper
+
+docker apikey - 0abeebcb-483a-4a88-9e95-bc1d69c9fe4f

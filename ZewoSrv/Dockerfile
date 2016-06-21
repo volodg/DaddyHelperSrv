@@ -15,14 +15,14 @@ RUN tar -zxf swift-3.0-preview-1-ubuntu15.10.tar.gz
 RUN mv swift-3.0-preview-1-ubuntu15.10 swift
 RUN rm -rf swift-3.0-preview-1-ubuntu15.10.tar.gz
 
-RUN export PATH=/$APP_NAME/swift/usr/bin:\"\${PATH}\"
+ENV PATH "/$APP_NAME/swift/usr/bin:$PATH"
 RUN echo "export PATH=/$APP_NAME/swift/usr/bin:\"\${PATH}\"" >> ~/.bashrc
 
-#RUN swift build -Xcc -I/usr/include/postgresql -Xlinker -L/usr/local/lib/
-# --configuration release
+RUN swift build -Xcc -I/usr/include/postgresql -Xlinker -L/usr/local/lib/
+#TODO --configuration release
 
-#EXPOSE 8080
+EXPOSE 8080
 
-#CMD .build/debug/$APP_NAME
+CMD .build/debug/$APP_NAME
 
-CMD while true; do foo; sleep 2; done
+#CMD while true; do foo; sleep 2; done
